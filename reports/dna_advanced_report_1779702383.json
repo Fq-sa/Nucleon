@@ -1,0 +1,101 @@
+{
+  "timestamp": 1779702383.971593,
+  "total_samples": 10,
+  "detection_rate": 44.44444444444444,
+  "false_positive_rate": 100.0,
+  "f1_score": 0.8000000000000002,
+  "precision": 0.8,
+  "recall": 0.8,
+  "results": [
+    {
+      "name": "legitimate_editor",
+      "true_label": "clean",
+      "verdict": "malicious",
+      "max_malware_sim": 1.0,
+      "max_clean_sim": 0.0,
+      "top_malware_match": "('malicious_disguised', 1.0)",
+      "top_clean_match": "None"
+    },
+    {
+      "name": "malicious_keylogger",
+      "true_label": "malicious",
+      "verdict": "suspicious",
+      "max_malware_sim": 0.9281592744323117,
+      "max_clean_sim": 0.9281592744323117,
+      "top_malware_match": "('malicious_disguised', 0.9281592744323117)",
+      "top_clean_match": "('legitimate_editor', 0.9281592744323117)"
+    },
+    {
+      "name": "malicious_ransomware",
+      "true_label": "malicious",
+      "verdict": "malicious",
+      "max_malware_sim": 0.965891895598679,
+      "max_clean_sim": 0.19962353223599819,
+      "top_malware_match": "('advanced_encrypted', 0.965891895598679)",
+      "top_clean_match": "('legitimate_editor', 0.19962353223599819)"
+    },
+    {
+      "name": "malicious_disguised",
+      "true_label": "malicious",
+      "verdict": "clean",
+      "max_malware_sim": 0.9281592744323117,
+      "max_clean_sim": 1.0,
+      "top_malware_match": "('malicious_keylogger', 0.9281592744323117)",
+      "top_clean_match": "('legitimate_editor', 1.0)"
+    },
+    {
+      "name": "advanced_polymorphic",
+      "true_label": "malicious",
+      "verdict": "suspicious",
+      "max_malware_sim": 0.8807899806250791,
+      "max_clean_sim": 0.8807899806250791,
+      "top_malware_match": "('malicious_disguised', 0.8807899806250791)",
+      "top_clean_match": "('legitimate_editor', 0.8807899806250791)"
+    },
+    {
+      "name": "advanced_encrypted",
+      "true_label": "malicious",
+      "verdict": "malicious",
+      "max_malware_sim": 0.965891895598679,
+      "max_clean_sim": 0.038189019176750216,
+      "top_malware_match": "('malicious_ransomware', 0.965891895598679)",
+      "top_clean_match": "('legitimate_editor', 0.038189019176750216)"
+    },
+    {
+      "name": "advanced_rootkit",
+      "true_label": "malicious",
+      "verdict": "suspicious",
+      "max_malware_sim": 0.32189509287654106,
+      "max_clean_sim": 0.32189509287654106,
+      "top_malware_match": "('malicious_disguised', 0.32189509287654106)",
+      "top_clean_match": "('legitimate_editor', 0.32189509287654106)"
+    },
+    {
+      "name": "advanced_fileless",
+      "true_label": "malicious",
+      "verdict": "malicious",
+      "max_malware_sim": 0.9079895590321548,
+      "max_clean_sim": 0.5412605529281,
+      "top_malware_match": "('malicious_ransomware', 0.9079895590321548)",
+      "top_clean_match": "('legitimate_editor', 0.5412605529281)"
+    },
+    {
+      "name": "advanced_apt",
+      "true_label": "malicious",
+      "verdict": "malicious",
+      "max_malware_sim": 0.8622143444571779,
+      "max_clean_sim": 0.7952646343664306,
+      "top_malware_match": "('advanced_polymorphic', 0.8622143444571779)",
+      "top_clean_match": "('legitimate_editor', 0.7952646343664306)"
+    },
+    {
+      "name": "advanced_zeroday",
+      "true_label": "malicious",
+      "verdict": "suspicious",
+      "max_malware_sim": 0.49544841691333197,
+      "max_clean_sim": 0.13830889620069406,
+      "top_malware_match": "('advanced_polymorphic', 0.49544841691333197)",
+      "top_clean_match": "('legitimate_editor', 0.13830889620069406)"
+    }
+  ]
+}

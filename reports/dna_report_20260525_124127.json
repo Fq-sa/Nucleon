@@ -1,0 +1,2972 @@
+[
+  {
+    "program_name": "legitimate_editor",
+    "is_known_malicious": false,
+    "analysis": {
+      "program_name": "legitimate_editor",
+      "pid": 56839,
+      "fingerprint": "DNAFingerprint(timing_vector=[0.10267888415943492, 0.011868350532795014, 0.00013589859008789062, 0.10547614097595215, 0.1155870618380153, 1.0, 0.0, 0.09212767882330396, 0.8844129381619847, 0.0973910077214364, 0.011905087495751738, 0.077], memory_vector=[0.1459070616883117, 0.001004558491728711, 0.1138479926563479, 0.5065296301962366, 0.02682167442657603, 0.013157894736842105, 0.77, 0.00109375, 0.1478125, 1.6611226087600208, 0.001004558491728711, 0.02682167442657603], io_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], network_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], file_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], process_vector=[0.0020909090909090895, 0.124, 1.0, 0.012987012987012988, 0.1, 0.2, 0.77, 0.0, 0.0, 0.0, 0.0, 0.0], rhythm_vector=[0.09212767882330396, 0.10202171064461045, 0.18309042297240488, 0.072200792858645, 0.0, 0.987012987012987, 0.012987012987012991, 0.05074655156488489, 0.077, 0.0, 0.10513591766357422, 0.10536103248596192], entropy_vector=[0.624775738780065, 0.6247927513443587, 0.19748899061396327, 0.0, 0.9969634911336647, 0.9969906383233499, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], raw_hash='01ac6293fd0550c636b21bb088cab672e4c2135ffcce63f848abb22208ebc3d9', creation_timestamp=1779702020.873004)",
+      "behavioral_data": "BehavioralData(syscall_sequence=[], timing_patterns=[0.00013589859008789062, 0.10270309448242188, 0.10515594482421875, 0.10337090492248535, 0.10529303550720215, 0.10529708862304688, 0.10342097282409668, 0.10535979270935059, 0.10513019561767578, 0.10525107383728027, 0.10145711898803711, 0.10530996322631836, 0.10528087615966797, 0.10513591766357422, 0.10178899765014648, 0.10547614097595215, 0.10524201393127441, 0.1041109561920166, 0.10077786445617676, 0.10523486137390137, 0.10317325592041016, 0.10531783103942871, 0.10481619834899902, 0.10365486145019531, 0.10157203674316406, 0.10529208183288574, 0.101470947265625, 0.10534501075744629, 0.10526585578918457, 0.10396027565002441, 0.10210299491882324, 0.10437202453613281, 0.10178780555725098, 0.1018071174621582, 0.10527896881103516, 0.10477113723754883, 0.10490274429321289, 0.10168004035949707, 0.10323119163513184, 0.1052098274230957, 0.10207200050354004, 0.10536599159240723, 0.10531306266784668, 0.10535979270935059, 0.1053471565246582, 0.10203289985656738, 0.10361313819885254, 0.10501408576965332, 0.10514378547668457, 0.1051630973815918, 0.10129308700561523, 0.10538387298583984, 0.1053171157836914, 0.10531091690063477, 0.1052391529083252, 0.1020667552947998, 0.10059022903442383, 0.10219478607177734, 0.10349702835083008, 0.1052701473236084, 0.10533595085144043, 0.1053919792175293, 0.10250115394592285, 0.10527276992797852, 0.1052100658416748, 0.10528206825256348, 0.10524702072143555, 0.10522699356079102, 0.10524106025695801, 0.10315084457397461, 0.10520505905151367, 0.10154199600219727, 0.10049176216125488, 0.10527634620666504, 0.10527777671813965, 0.1005251407623291, 0.10356307029724121], memory_operations={'rss_total': 1178058752, 'vms_total': 34294147661824, 'samples': 77}, io_operations={}, network_operations={}, file_operations={'open_files_count': 0}, process_operations={'cpu_total': 16.099999999999987, 'cpu_samples': 77, 'threads_total': 77, 'threads_max': 1}, context_data={}, memory_timeline=[114688, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264, 15499264], cpu_timeline=[0.0, 12.4, 0.0, 0.1, 0.1, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.1, 0.0, 0.0, 0.1, 0.1, 0.0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.0, 0.1, 0.1, 0.1, 0.1, 0.0, 0.0, 0.1, 0.0, 0.0, 0.1, 0.1, 0.1, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.1, 0.1, 0.0, 0.0, 0.1, 0.0, 0.1, 0.0, 0.1, 0.1, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.1, 0.0, 0.1, 0.0, 0.1, 0.1, 0.0, 0.1, 0.1, 0.0], io_timeline=[], entropy_samples=[], burst_events=[], data_volume=0)",
+      "analysis_duration": 8,
+      "status": "completed"
+    },
+    "comparison": {
+      "program_name": "legitimate_editor",
+      "verdict": "malicious",
+      "best_match": {
+        "compared_with": "advanced_polymorphic",
+        "is_known_malicious": true,
+        "similarity": 0.9985614001643541,
+        "match": true,
+        "suspicious": true,
+        "details": {
+          "overall_similarity": 0.9985614001643541,
+          "feature_similarities": {
+            "timing": 0.9995505765762958,
+            "memory": 0.9999967925206795,
+            "io": 1.0,
+            "network": 1.0,
+            "file": 1.0,
+            "process": 0.9975679461345952,
+            "rhythm": 0.9889563395138299,
+            "entropy": 0.9999949778011659
+          },
+          "match": true,
+          "suspicious": true,
+          "distances": {
+            "euclidean": 0.18296497628008385,
+            "cosine": 0.0015146091465196854,
+            "manhattan": 0.3828515015848078
+          }
+        }
+      },
+      "all_comparisons": [
+        {
+          "compared_with": "advanced_polymorphic",
+          "is_known_malicious": true,
+          "similarity": 0.9985614001643541,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9985614001643541,
+            "feature_similarities": {
+              "timing": 0.9995505765762958,
+              "memory": 0.9999967925206795,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9975679461345952,
+              "rhythm": 0.9889563395138299,
+              "entropy": 0.9999949778011659
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.18296497628008385,
+              "cosine": 0.0015146091465196854,
+              "manhattan": 0.3828515015848078
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_keylogger",
+          "is_known_malicious": true,
+          "similarity": 0.9983658253171998,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9983658253171998,
+            "feature_similarities": {
+              "timing": 0.9993499820916187,
+              "memory": 0.9998616849389034,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9919700201852859,
+              "rhythm": 0.9934278527175157,
+              "entropy": 0.9998370462081514
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.2216249411398796,
+              "cosine": 0.0022083488333124457,
+              "manhattan": 0.5286427683097767
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_disguised",
+          "is_known_malicious": true,
+          "similarity": 0.9978107861568746,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9978107861568746,
+            "feature_similarities": {
+              "timing": 0.9982401250037259,
+              "memory": 0.9999998349940353,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9924331595527248,
+              "rhythm": 0.9904585142939921,
+              "entropy": 0.9987362677265066
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.24521817194683954,
+              "cosine": 0.0027243632367510706,
+              "manhattan": 0.5851731735546
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_apt",
+          "is_known_malicious": true,
+          "similarity": 0.9967653287182897,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9967653287182897,
+            "feature_similarities": {
+              "timing": 0.9982225411273645,
+              "memory": 0.9999984345066226,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9962046308330617,
+              "rhythm": 0.975937806784847,
+              "entropy": 0.9990688982970138
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.2765481778194193,
+              "cosine": 0.0034541300269377295,
+              "manhattan": 0.6648700856584953
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_rootkit",
+          "is_known_malicious": true,
+          "similarity": 0.9964078659983582,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9964078659983582,
+            "feature_similarities": {
+              "timing": 0.9994126443490089,
+              "memory": 0.995043593404322,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9833075849371903,
+              "rhythm": 0.9921163255411624,
+              "entropy": 0.9997422739985666
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.36263799881167197,
+              "cosine": 0.005757143940025133,
+              "manhattan": 1.1901068501346828
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_fileless",
+          "is_known_malicious": true,
+          "similarity": 0.9956853531208809,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9956853531208809,
+            "feature_similarities": {
+              "timing": 0.99963309321941,
+              "memory": 0.9890281451992842,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9870251291886354,
+              "rhythm": 0.9978421267670243,
+              "entropy": 0.9946637984157608
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.4664385216463845,
+              "cosine": 0.009340987262888345,
+              "manhattan": 1.363092006007934
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_zeroday",
+          "is_known_malicious": true,
+          "similarity": 0.9435148010382112,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9435148010382112,
+            "feature_similarities": {
+              "timing": 0.9997637454092058,
+              "memory": 0.9908735729323241,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9870952584937162,
+              "rhythm": 0.9705965211112518,
+              "entropy": 0.9961815940940832
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.4910666938524669,
+              "cosine": 0.010589414498241245,
+              "manhattan": 1.593613684806535
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_ransomware",
+          "is_known_malicious": true,
+          "similarity": 0.9010606238984188,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9010606238984188,
+            "feature_similarities": {
+              "timing": 0.9711161158931665,
+              "memory": 0.9060408418865364,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8224318028091053,
+              "rhythm": 0.9645667513273394,
+              "entropy": 0.9692937692883371
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 3.135101327464813,
+              "cosine": 0.18444833304982,
+              "manhattan": 7.964820060124268
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_encrypted",
+          "is_known_malicious": true,
+          "similarity": 0.4899401222749805,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.4899401222749805,
+            "feature_similarities": {
+              "timing": 0.8432488054762888,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.20017317851603622,
+              "rhythm": 0.012730433281191167,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3137941469571004,
+              "cosine": 0.6929558390747068,
+              "manhattan": 13.048783590024513
+            }
+          }
+        }
+      ],
+      "aggregate_scores": {
+        "malware_score": 0.9708933872479781,
+        "clean_score": 0.0,
+        "maliciousness_index": 0.9708933872479781,
+        "high_sim_malware_count": 8,
+        "max_malware_similarity": 0.9985614001643541,
+        "max_clean_similarity": 0.0
+      }
+    },
+    "timestamp": 1779702087.881987
+  },
+  {
+    "program_name": "malicious_keylogger",
+    "is_known_malicious": true,
+    "analysis": {
+      "program_name": "malicious_keylogger",
+      "pid": 56846,
+      "fingerprint": "DNAFingerprint(timing_vector=[0.10313320779181145, 0.011864138612270108, 0.00033402442932128906, 0.10548901557922363, 0.1150370367245776, 1.0, 0.0, 0.043203395574712866, 0.8849629632754223, 0.09696197969703776, 0.012068064443897204, 0.077], memory_vector=[0.1458218344155844, 0.0009676801260553229, 0.10966851685784412, 0.5062899208193595, 0.025824144432383015, 0.013157894736842105, 0.77, 0.00640625, 0.14765625, 1.5992064305847273, 0.0009676801260553229, 0.025824144432383015], io_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], network_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], file_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], process_vector=[0.0045844155844155954, 0.29100000000000004, 1.0, 0.012987012987012988, 0.1, 0.2, 0.77, 0.0, 0.0, 0.0, 0.0, 0.0], rhythm_vector=[0.043203395574712866, 0.07417135309859357, 0.08180113952209411, 0.09654167090966344, 0.0, 0.987012987012987, 0.012987012987012991, 0.04975022427245506, 0.077, 0.0, 0.10522294044494629, 0.10535764694213867], entropy_vector=[0.6247811492328917, 0.6247927513443587, 0.16708934248680335, 0.0, 0.9969721246698345, 0.9969906383233499, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], raw_hash='9d0846a807691ef1215a97e38b0eca68a693bd9ecb5fd1ee7585c819815d4038', creation_timestamp=1779702028.985627)",
+      "behavioral_data": "BehavioralData(syscall_sequence=[], timing_patterns=[0.00033402442932128906, 0.10520505905151367, 0.1051630973815918, 0.10522079467773438, 0.10452699661254883, 0.10522603988647461, 0.10526895523071289, 0.10522603988647461, 0.10401296615600586, 0.10524296760559082, 0.10523104667663574, 0.10114097595214844, 0.10127496719360352, 0.10377311706542969, 0.10524296760559082, 0.1020960807800293, 0.10523080825805664, 0.10358023643493652, 0.10524296760559082, 0.10526299476623535, 0.10524797439575195, 0.10522294044494629, 0.10150814056396484, 0.10532402992248535, 0.10318589210510254, 0.10528898239135742, 0.10523581504821777, 0.1052401065826416, 0.10071992874145508, 0.10525107383728027, 0.10524106025695801, 0.10522294044494629, 0.10526299476623535, 0.10471510887145996, 0.10467004776000977, 0.10463309288024902, 0.10440564155578613, 0.10530829429626465, 0.10525107383728027, 0.10310769081115723, 0.10196995735168457, 0.10471820831298828, 0.10548901557922363, 0.10413599014282227, 0.10540890693664551, 0.1007390022277832, 0.10051393508911133, 0.10267806053161621, 0.10515189170837402, 0.1025390625, 0.10453605651855469, 0.10537385940551758, 0.10525703430175781, 0.10535502433776855, 0.10536813735961914, 0.10528898239135742, 0.1050868034362793, 0.10526013374328613, 0.10535287857055664, 0.10528421401977539, 0.10413098335266113, 0.10413503646850586, 0.10516786575317383, 0.10513710975646973, 0.10391879081726074, 0.10535216331481934, 0.10515594482421875, 0.10532903671264648, 0.10442495346069336, 0.10511898994445801, 0.10269713401794434, 0.1052849292755127, 0.10525703430175781, 0.1052408218383789, 0.10530209541320801, 0.10527300834655762, 0.10527801513671875], memory_operations={'rss_total': 1177370624, 'vms_total': 34294158540800, 'samples': 77}, io_operations={}, network_operations={}, file_operations={'open_files_count': 0}, process_operations={'cpu_total': 35.30000000000008, 'cpu_samples': 77, 'threads_total': 77, 'threads_max': 1}, context_data={}, memory_timeline=[671744, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880, 15482880], cpu_timeline=[0.0, 29.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.2, 0.2, 0.2, 0.1, 0.1, 0.0, 0.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.2], io_timeline=[], entropy_samples=[], burst_events=[], data_volume=0)",
+      "analysis_duration": 8,
+      "status": "completed"
+    },
+    "comparison": {
+      "program_name": "malicious_keylogger",
+      "verdict": "suspicious",
+      "best_match": {
+        "compared_with": "malicious_disguised",
+        "is_known_malicious": true,
+        "similarity": 0.9998012967048601,
+        "match": true,
+        "suspicious": true,
+        "details": {
+          "overall_similarity": 0.9998012967048601,
+          "feature_similarities": {
+            "timing": 0.9997289796275167,
+            "memory": 0.9998556167960697,
+            "io": 1.0,
+            "network": 1.0,
+            "file": 1.0,
+            "process": 0.9999930680126569,
+            "rhythm": 0.9993699199418365,
+            "entropy": 0.9994807862469341
+          },
+          "match": true,
+          "suspicious": true,
+          "distances": {
+            "euclidean": 0.09662474580449705,
+            "cosine": 0.00039147465517619384,
+            "manhattan": 0.2268740049999179
+          }
+        }
+      },
+      "all_comparisons": [
+        {
+          "compared_with": "malicious_disguised",
+          "is_known_malicious": true,
+          "similarity": 0.9998012967048601,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9998012967048601,
+            "feature_similarities": {
+              "timing": 0.9997289796275167,
+              "memory": 0.9998556167960697,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9999930680126569,
+              "rhythm": 0.9993699199418365,
+              "entropy": 0.9994807862469341
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.09662474580449705,
+              "cosine": 0.00039147465517619384,
+              "manhattan": 0.2268740049999179
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_polymorphic",
+          "is_known_malicious": true,
+          "similarity": 0.9996790553935967,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9996790553935967,
+            "feature_similarities": {
+              "timing": 0.999981534530215,
+              "memory": 0.999820125133522,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9983727196013262,
+              "rhythm": 0.9990397026470843,
+              "entropy": 0.999774812360082
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.11959615611377652,
+              "cosine": 0.000608345638025809,
+              "manhattan": 0.2708106970835926
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_apt",
+          "is_known_malicious": true,
+          "similarity": 0.9986608199036466,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9986608199036466,
+            "feature_similarities": {
+              "timing": 0.9997220328220421,
+              "memory": 0.999837079857623,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9992136096824289,
+              "rhythm": 0.9885914390093274,
+              "entropy": 0.9996849249853792
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.18717125253568673,
+              "cosine": 0.001539091172175877,
+              "manhattan": 0.45059739212036404
+            }
+          }
+        },
+        {
+          "compared_with": "legitimate_editor",
+          "is_known_malicious": false,
+          "similarity": 0.9983658253171998,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9983658253171998,
+            "feature_similarities": {
+              "timing": 0.9993499820916187,
+              "memory": 0.9998616849389034,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9919700201852859,
+              "rhythm": 0.9934278527175157,
+              "entropy": 0.9998370462081514
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.2216249411398796,
+              "cosine": 0.0022083488333124457,
+              "manhattan": 0.5286427683097767
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_rootkit",
+          "is_known_malicious": true,
+          "similarity": 0.9966550031408176,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9966550031408176,
+            "feature_similarities": {
+              "timing": 0.9998806520352758,
+              "memory": 0.9933966141974184,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9809095269173465,
+              "rhythm": 0.9997246964955454,
+              "entropy": 0.9993612755298952
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3932667877929855,
+              "cosine": 0.006686790374196061,
+              "manhattan": 1.149909112380017
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_fileless",
+          "is_known_malicious": true,
+          "similarity": 0.9949427706645796,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9949427706645796,
+            "feature_similarities": {
+              "timing": 0.9984644463811321,
+              "memory": 0.9866636450532827,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9902536005996718,
+              "rhythm": 0.9961924828914444,
+              "entropy": 0.9927254402858492
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.5232793469778227,
+              "cosine": 0.011695420677092505,
+              "manhattan": 1.5384124289133108
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_zeroday",
+          "is_known_malicious": true,
+          "similarity": 0.9439461210633815,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9439461210633815,
+            "feature_similarities": {
+              "timing": 0.999185311299584,
+              "memory": 0.9887099741685451,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9915573257343169,
+              "rhythm": 0.9775787538529135,
+              "entropy": 0.9945345601103258
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.513805672644254,
+              "cosine": 0.011525231637713906,
+              "manhattan": 1.6362515874625592
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_ransomware",
+          "is_known_malicious": true,
+          "similarity": 0.9047388722935603,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9047388722935603,
+            "feature_similarities": {
+              "timing": 0.9727479945283581,
+              "memory": 0.8992393898131882,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8525182518783108,
+              "rhythm": 0.9805466404328704,
+              "entropy": 0.9703490619413291
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 3.1742792249508036,
+              "cosine": 0.1901753456090438,
+              "manhattan": 7.636437105861093
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_encrypted",
+          "is_known_malicious": true,
+          "similarity": 0.489830148353321,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.489830148353321,
+            "feature_similarities": {
+              "timing": 0.8446219266847858,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.19611639451153184,
+              "rhythm": 0.012941235652106364,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.285723601669399,
+              "cosine": 0.690331244866216,
+              "manhattan": 12.920860988610029
+            }
+          }
+        }
+      ],
+      "aggregate_scores": {
+        "malware_score": 0.9671154381965985,
+        "clean_score": 0.9983658253171998,
+        "maliciousness_index": -0.03125038712060124,
+        "high_sim_malware_count": 7,
+        "max_malware_similarity": 0.9998012967048601,
+        "max_clean_similarity": 0.9983658253171998
+      }
+    },
+    "timestamp": 1779702087.884676
+  },
+  {
+    "program_name": "malicious_ransomware",
+    "is_known_malicious": true,
+    "analysis": {
+      "program_name": "malicious_ransomware",
+      "pid": 56850,
+      "fingerprint": "DNAFingerprint(timing_vector=[0.09395041465759277, 0.03124172728736989, 0.0003311634063720703, 0.10528206825256348, 0.33253421393861865, 1.0, 0.0, 0.0, 0.6674657860613813, 0.10643912574995572, 0.03306953890050004, 0.01], memory_vector=[0.137078125, 0.06368713925991942, 0.3305640149547425, 0.5613815114556024, 0.2787012987012987, 0.1111111111111111, 0.1, 0.00125, 0.15390625, 4.531309536246806, 0.06368713925991942, 0.2787012987012987], io_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], network_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], file_vector=[0.1, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], process_vector=[0.045899999999999996, 0.409, 1.0, 0.1, 0.1, 0.2, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0], rhythm_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.9, 0.09999999999999998, 0.0, 0.01, 0.0, 0.10516798496246338, 0.10527659654617309], entropy_vector=[0.31697604607655505, 0.3169806683255443, 0.06762380829027792, 0.0, 0.9541929777601128, 0.9542068921160446, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], raw_hash='eca41da4560447f4716e013a9726d1e14ff76a9a4e5ff9c12ac2fc64ae0dfe72', creation_timestamp=1779702030.0392709)",
+      "behavioral_data": "BehavioralData(syscall_sequence=[], timing_patterns=[0.0003311634063720703, 0.10519790649414062, 0.10513806343078613, 0.10215020179748535, 0.10528206825256348, 0.10083675384521484, 0.1052391529083252, 0.10525274276733398, 0.1052699089050293, 0.10480618476867676], memory_operations={'rss_total': 143736832, 'vms_total': 4431329329152, 'samples': 10}, io_operations={}, network_operations={}, file_operations={'open_files_count': 1}, process_operations={'cpu_total': 45.9, 'cpu_samples': 10, 'threads_total': 10, 'threads_max': 1}, context_data={}, memory_timeline=[131072, 15663104, 15663104, 15810560, 15810560, 16105472, 16138240, 16138240, 16138240, 16138240], cpu_timeline=[0.0, 40.9, 0.0, 0.5, 0.0, 2.8, 0.6, 0.0, 1.1, 0.0], io_timeline=[], entropy_samples=[], burst_events=[], data_volume=0)",
+      "analysis_duration": 8,
+      "status": "completed"
+    },
+    "comparison": {
+      "program_name": "malicious_ransomware",
+      "verdict": "malicious",
+      "best_match": {
+        "compared_with": "advanced_zeroday",
+        "is_known_malicious": true,
+        "similarity": 0.9676299380417956,
+        "match": true,
+        "suspicious": true,
+        "details": {
+          "overall_similarity": 0.9676299380417956,
+          "feature_similarities": {
+            "timing": 0.9754376826069895,
+            "memory": 0.9533760945150919,
+            "io": 1.0,
+            "network": 1.0,
+            "file": 1.0,
+            "process": 0.9015952002501807,
+            "rhythm": 0.9500828467532552,
+            "entropy": 0.9669937791703572
+          },
+          "match": true,
+          "suspicious": true,
+          "distances": {
+            "euclidean": 2.823444617982896,
+            "cosine": 0.1343693812326332,
+            "manhattan": 7.04779088060487
+          }
+        }
+      },
+      "all_comparisons": [
+        {
+          "compared_with": "advanced_zeroday",
+          "is_known_malicious": true,
+          "similarity": 0.9676299380417956,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9676299380417956,
+            "feature_similarities": {
+              "timing": 0.9754376826069895,
+              "memory": 0.9533760945150919,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9015952002501807,
+              "rhythm": 0.9500828467532552,
+              "entropy": 0.9669937791703572
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 2.823444617982896,
+              "cosine": 0.1343693812326332,
+              "manhattan": 7.04779088060487
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_fileless",
+          "is_known_malicious": true,
+          "similarity": 0.9200613544274135,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9200613544274135,
+            "feature_similarities": {
+              "timing": 0.974563966006528,
+              "memory": 0.9574646474900008,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.902357142474983,
+              "rhythm": 0.9693540081703147,
+              "entropy": 0.9648451666357797
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 2.7647510023878827,
+              "cosine": 0.1264613287694365,
+              "manhattan": 7.071957421610336
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_rootkit",
+          "is_known_malicious": true,
+          "similarity": 0.9161805532858119,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9161805532858119,
+            "feature_similarities": {
+              "timing": 0.9754611328141731,
+              "memory": 0.9425460500890659,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8702581369974272,
+              "rhythm": 0.9827544619244896,
+              "entropy": 0.9727785681297241
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 2.887809850187365,
+              "cosine": 0.14439158864240453,
+              "manhattan": 7.383970780149159
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_disguised",
+          "is_known_malicious": true,
+          "similarity": 0.9065511224026332,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9065511224026332,
+            "feature_similarities": {
+              "timing": 0.9732245229572459,
+              "memory": 0.90620104213714,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8518212470245613,
+              "rhythm": 0.9833922868349886,
+              "entropy": 0.9714465599780098
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 3.1128076359547956,
+              "cosine": 0.18039289549971838,
+              "manhattan": 7.421654833620824
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_polymorphic",
+          "is_known_malicious": true,
+          "similarity": 0.9052125238304981,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9052125238304981,
+            "feature_similarities": {
+              "timing": 0.9725776310177715,
+              "memory": 0.9070542065946007,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8406607052759318,
+              "rhythm": 0.9831249563896605,
+              "entropy": 0.9690759014146441
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 3.1118952144095724,
+              "cosine": 0.18041638867383714,
+              "manhattan": 7.631326705409894
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_keylogger",
+          "is_known_malicious": true,
+          "similarity": 0.9047388722935603,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9047388722935603,
+            "feature_similarities": {
+              "timing": 0.9727479945283581,
+              "memory": 0.8992393898131882,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8525182518783108,
+              "rhythm": 0.9805466404328704,
+              "entropy": 0.9703490619413291
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 3.1742792249508036,
+              "cosine": 0.1901753456090438,
+              "manhattan": 7.636437105861093
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_apt",
+          "is_known_malicious": true,
+          "similarity": 0.9032320418200782,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9032320418200782,
+            "feature_similarities": {
+              "timing": 0.9732231436999156,
+              "memory": 0.9067056257527087,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8445560202843126,
+              "rhythm": 0.9566160507462651,
+              "entropy": 0.9712908082649557
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 3.119993079011099,
+              "cosine": 0.18211219481464447,
+              "manhattan": 7.661307638702258
+            }
+          }
+        },
+        {
+          "compared_with": "legitimate_editor",
+          "is_known_malicious": false,
+          "similarity": 0.9010606238984188,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9010606238984188,
+            "feature_similarities": {
+              "timing": 0.9711161158931665,
+              "memory": 0.9060408418865364,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8224318028091053,
+              "rhythm": 0.9645667513273394,
+              "entropy": 0.9692937692883371
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 3.135101327464813,
+              "cosine": 0.18444833304982,
+              "manhattan": 7.964820060124268
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_encrypted",
+          "is_known_malicious": true,
+          "similarity": 0.4438452167970019,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.4438452167970019,
+            "feature_similarities": {
+              "timing": 0.8123732008345296,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.20466694309872313,
+              "rhythm": 0.10903882320223623,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 5.205107695944357,
+              "cosine": 0.8155398504364725,
+              "manhattan": 14.816801135875746
+            }
+          }
+        }
+      ],
+      "aggregate_scores": {
+        "malware_score": 0.9110258196872182,
+        "clean_score": 0.9010606238984188,
+        "maliciousness_index": 0.009965195788799397,
+        "high_sim_malware_count": 7,
+        "max_malware_similarity": 0.9676299380417956,
+        "max_clean_similarity": 0.9010606238984188
+      }
+    },
+    "timestamp": 1779702087.887272
+  },
+  {
+    "program_name": "malicious_disguised",
+    "is_known_malicious": true,
+    "analysis": {
+      "program_name": "malicious_disguised",
+      "pid": 56853,
+      "fingerprint": "DNAFingerprint(timing_vector=[0.10311536355452104, 0.011871211155252123, 0.0002980232238769531, 0.10538339614868164, 0.11512553266589957, 1.0, 0.0, 0.011660814270606449, 0.8848744673341005, 0.09697875908387422, 0.012007989951628306, 0.077], memory_vector=[0.14637378246753247, 0.0010024218084329363, 0.11360583940577085, 0.5065157417548141, 0.026763851716872577, 0.013157894736842105, 0.77, 0.00140625, 0.14828125, 1.6628916424221731, 0.0010024218084329363, 0.026763851716872577], io_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], network_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], file_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], process_vector=[0.004207792207792214, 0.28600000000000003, 1.0, 0.012987012987012988, 0.1, 0.2, 0.77, 0.0, 0.0, 0.0, 0.0, 0.0], rhythm_vector=[0.011660814270606449, 0.05921703611757303, 0.0751932067271208, 0.0903430328415174, 0.0, 0.987012987012987, 0.012987012987012991, 0.0495365342044006, 0.077, 0.0, 0.10524702072143555, 0.10534729957580566], entropy_vector=[0.6247803541378865, 0.6247927513443587, 0.11308277735061693, 0.0, 0.9969708559254786, 0.9969906383233499, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], raw_hash='f36f7e147792dca51e0e29dd999f839cadadf285e37a641d4c76ea6e9b4f9981', creation_timestamp=1779702043.056343)",
+      "behavioral_data": "BehavioralData(syscall_sequence=[], timing_patterns=[0.0002980232238769531, 0.10463881492614746, 0.10538339614868164, 0.10534882545471191, 0.10532093048095703, 0.10528302192687988, 0.1036069393157959, 0.10526013374328613, 0.10524797439575195, 0.1052560806274414, 0.1052398681640625, 0.10523700714111328, 0.10527586936950684, 0.10528111457824707, 0.10490012168884277, 0.10533571243286133, 0.10301899909973145, 0.105316162109375, 0.10235118865966797, 0.10038399696350098, 0.10525178909301758, 0.10528898239135742, 0.10529398918151855, 0.1052391529083252, 0.10526800155639648, 0.10535192489624023, 0.10393214225769043, 0.10534977912902832, 0.10340213775634766, 0.10533905029296875, 0.10528182983398438, 0.10271406173706055, 0.10532808303833008, 0.10389304161071777, 0.10527586936950684, 0.1030430793762207, 0.10530376434326172, 0.10515117645263672, 0.10516691207885742, 0.10532522201538086, 0.1052846908569336, 0.10529422760009766, 0.10184192657470703, 0.10533285140991211, 0.1052100658416748, 0.10310721397399902, 0.10527896881103516, 0.10520792007446289, 0.10513806343078613, 0.10305190086364746, 0.10528898239135742, 0.10071992874145508, 0.1020510196685791, 0.10371518135070801, 0.10523796081542969, 0.10529589653015137, 0.10071492195129395, 0.10063004493713379, 0.1021871566772461, 0.10219883918762207, 0.10532832145690918, 0.10533785820007324, 0.10319685935974121, 0.1034860610961914, 0.10509300231933594, 0.10527896881103516, 0.10525989532470703, 0.10514998435974121, 0.1052861213684082, 0.10509300231933594, 0.10527801513671875, 0.1053469181060791, 0.10524702072143555, 0.10272717475891113, 0.10530281066894531, 0.10524106025695801, 0.10525798797607422], memory_operations={'rss_total': 1181827072, 'vms_total': 34294114959360, 'samples': 77}, io_operations={}, network_operations={}, file_operations={'open_files_count': 0}, process_operations={'cpu_total': 32.40000000000005, 'cpu_samples': 77, 'threads_total': 77, 'threads_max': 1}, context_data={}, memory_timeline=[147456, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416], cpu_timeline=[0.0, 28.6, 0.0, 0.2, 0.1, 0.1, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.1, 0.1, 0.1, 0.0, 0.0, 0.1, 0.0, 0.0, 0.1, 0.1, 0.0, 0.1, 0.1, 0.0, 0.1, 0.1, 0.1, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.1, 0.1, 0.1, 0.1, 0.0, 0.0, 0.1, 0.1, 0.1, 0.0, 0.1, 0.0, 0.1, 0.1, 0.1, 0.0, 0.1, 0.1, 0.0, 0.0, 0.1, 0.1, 0.1, 0.0, 0.1, 0.1, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0], io_timeline=[], entropy_samples=[], burst_events=[], data_volume=0)",
+      "analysis_duration": 8,
+      "status": "completed"
+    },
+    "comparison": {
+      "program_name": "malicious_disguised",
+      "verdict": "suspicious",
+      "best_match": {
+        "compared_with": "malicious_keylogger",
+        "is_known_malicious": true,
+        "similarity": 0.9998012967048601,
+        "match": true,
+        "suspicious": true,
+        "details": {
+          "overall_similarity": 0.9998012967048601,
+          "feature_similarities": {
+            "timing": 0.9997289796275167,
+            "memory": 0.9998556167960697,
+            "io": 1.0,
+            "network": 1.0,
+            "file": 1.0,
+            "process": 0.9999930680126569,
+            "rhythm": 0.9993699199418365,
+            "entropy": 0.9994807862469341
+          },
+          "match": true,
+          "suspicious": true,
+          "distances": {
+            "euclidean": 0.09662474580449705,
+            "cosine": 0.00039147465517619384,
+            "manhattan": 0.2268740049999179
+          }
+        }
+      },
+      "all_comparisons": [
+        {
+          "compared_with": "malicious_keylogger",
+          "is_known_malicious": true,
+          "similarity": 0.9998012967048601,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9998012967048601,
+            "feature_similarities": {
+              "timing": 0.9997289796275167,
+              "memory": 0.9998556167960697,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9999930680126569,
+              "rhythm": 0.9993699199418365,
+              "entropy": 0.9994807862469341
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.09662474580449705,
+              "cosine": 0.00039147465517619384,
+              "manhattan": 0.2268740049999179
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_polymorphic",
+          "is_known_malicious": true,
+          "similarity": 0.9994714019481901,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9994714019481901,
+            "feature_similarities": {
+              "timing": 0.9995691287623713,
+              "memory": 0.9999977654926452,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9985776664489604,
+              "rhythm": 0.9984305945742854,
+              "entropy": 0.9985719699486216
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.13400539501749725,
+              "cosine": 0.000812235631875935,
+              "manhattan": 0.3086840758529149
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_apt",
+          "is_known_malicious": true,
+          "similarity": 0.9987085548028937,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9987085548028937,
+            "feature_similarities": {
+              "timing": 0.9999999512842781,
+              "memory": 0.9999989423811506,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9993540728973433,
+              "rhythm": 0.9877590533185435,
+              "entropy": 0.9999746344821917
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.17030469417060234,
+              "cosine": 0.0013082199401313055,
+              "manhattan": 0.2904388521505571
+            }
+          }
+        },
+        {
+          "compared_with": "legitimate_editor",
+          "is_known_malicious": false,
+          "similarity": 0.9978107861568746,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9978107861568746,
+            "feature_similarities": {
+              "timing": 0.9982401250037259,
+              "memory": 0.9999998349940353,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9924331595527248,
+              "rhythm": 0.9904585142939921,
+              "entropy": 0.9987362677265066
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.24521817194683954,
+              "cosine": 0.0027243632367510706,
+              "manhattan": 0.5851731735546
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_rootkit",
+          "is_known_malicious": true,
+          "similarity": 0.9967322575119049,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9967322575119049,
+            "feature_similarities": {
+              "timing": 0.999496797176418,
+              "memory": 0.9950834642884985,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9812045016689278,
+              "rhythm": 0.9990858455295785,
+              "entropy": 0.9978717049907093
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3678045513001584,
+              "cosine": 0.005924921845435582,
+              "manhattan": 1.1784377752492512
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_fileless",
+          "is_known_malicious": true,
+          "similarity": 0.9943880054310764,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9943880054310764,
+            "feature_similarities": {
+              "timing": 0.9970275685747674,
+              "memory": 0.9890857486865502,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9903847372603428,
+              "rhythm": 0.9928070936791098,
+              "entropy": 0.9884615888486759
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.5161514918983485,
+              "cosine": 0.011500988535354528,
+              "manhattan": 1.602674798243417
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_zeroday",
+          "is_known_malicious": true,
+          "similarity": 0.9433856116532463,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9433856116532463,
+            "feature_similarities": {
+              "timing": 0.9981285434814459,
+              "memory": 0.9909259738149472,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.991652701966416,
+              "rhythm": 0.9733051663470276,
+              "entropy": 0.9907892136262324
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.5113061700994512,
+              "cosine": 0.011492386376773522,
+              "manhattan": 1.689173495523473
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_ransomware",
+          "is_known_malicious": true,
+          "similarity": 0.9065511224026332,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9065511224026332,
+            "feature_similarities": {
+              "timing": 0.9732245229572459,
+              "memory": 0.90620104213714,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8518212470245613,
+              "rhythm": 0.9833922868349886,
+              "entropy": 0.9714465599780098
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 3.1128076359547956,
+              "cosine": 0.18039289549971838,
+              "manhattan": 7.421654833620824
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_encrypted",
+          "is_known_malicious": true,
+          "similarity": 0.48993126425375183,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.48993126425375183,
+            "feature_similarities": {
+              "timing": 0.8450266713805022,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.1962805240456451,
+              "rhythm": 0.012978775730868586,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3135375704423344,
+              "cosine": 0.6929261626947227,
+              "manhattan": 12.83635167562736
+            }
+          }
+        }
+      ],
+      "aggregate_scores": {
+        "malware_score": 0.9671149082135206,
+        "clean_score": 0.9978107861568746,
+        "maliciousness_index": -0.030695877943353933,
+        "high_sim_malware_count": 7,
+        "max_malware_similarity": 0.9998012967048601,
+        "max_clean_similarity": 0.9978107861568746
+      }
+    },
+    "timestamp": 1779702087.889931
+  },
+  {
+    "program_name": "advanced_polymorphic",
+    "is_known_malicious": true,
+    "analysis": {
+      "program_name": "advanced_polymorphic",
+      "pid": 56864,
+      "fingerprint": "DNAFingerprint(timing_vector=[0.1030685684897683, 0.011873819257510946, 0.00029397010803222656, 0.10541319847106934, 0.11520310635428753, 1.0, 0.0, 0.0514352965638247, 0.8847968936457125, 0.09702278926084734, 0.012108634415768378, 0.077], memory_vector=[0.14675933441558442, 0.0010338236905165867, 0.11385653843841465, 0.5067820748586204, 0.02787327745418378, 0.013157894736842105, 0.77, 0.00109375, 0.14875, 1.6709509800084137, 0.0010338236905165867, 0.02787327745418378], io_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], network_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], file_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], process_vector=[0.003766233766233767, 0.215, 1.0, 0.012987012987012988, 0.1, 0.2, 0.77, 0.0, 0.0, 0.0, 0.0, 0.0], rhythm_vector=[0.0514352965638247, 0.07660729579408582, 0.03880809429158614, 0.08914266696091865, 0.0, 0.987012987012987, 0.012987012987012991, 0.04999355708765142, 0.077, 0.0, 0.10515999794006348, 0.10534129142761231], entropy_vector=[0.6247791298645831, 0.624792692863845, 0.20283930117516608, 0.0, 0.9969689023352366, 0.9969905450051662, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], raw_hash='0143a1b1bac44e45107f0fb3f85fc9fec84a4a338826e5c303efc4fb44fb0de8', creation_timestamp=1779702056.06812)",
+      "behavioral_data": "BehavioralData(syscall_sequence=[], timing_patterns=[0.00029397010803222656, 0.10514092445373535, 0.10515999794006348, 0.10369300842285156, 0.10515522956848145, 0.10526585578918457, 0.10434198379516602, 0.10514712333679199, 0.10530376434326172, 0.10206913948059082, 0.1048269271850586, 0.10125613212585449, 0.10517072677612305, 0.10361504554748535, 0.10529923439025879, 0.1053159236907959, 0.10526394844055176, 0.10150408744812012, 0.1038370132446289, 0.10526895523071289, 0.10526299476623535, 0.10315799713134766, 0.105194091796875, 0.10383272171020508, 0.1046133041381836, 0.10525274276733398, 0.10531306266784668, 0.105255126953125, 0.10182881355285645, 0.10520315170288086, 0.10314202308654785, 0.10539793968200684, 0.10499000549316406, 0.1053309440612793, 0.10541319847106934, 0.10529088973999023, 0.10150694847106934, 0.10444998741149902, 0.10535025596618652, 0.10516095161437988, 0.10293078422546387, 0.10104513168334961, 0.10509109497070312, 0.10511994361877441, 0.10527181625366211, 0.10513615608215332, 0.10396099090576172, 0.10524892807006836, 0.10515284538269043, 0.10054326057434082, 0.10527181625366211, 0.10526204109191895, 0.10535097122192383, 0.105316162109375, 0.10523176193237305, 0.10532307624816895, 0.10523009300231934, 0.10526680946350098, 0.10533308982849121, 0.10533905029296875, 0.1052858829498291, 0.1052091121673584, 0.10420417785644531, 0.10508370399475098, 0.10515117645263672, 0.10529088973999023, 0.10114312171936035, 0.10526800155639648, 0.10510683059692383, 0.10532188415527344, 0.10515308380126953, 0.10527420043945312, 0.10052895545959473, 0.10039377212524414, 0.10244131088256836, 0.10525798797607422, 0.10386371612548828], memory_operations={'rss_total': 1184940032, 'vms_total': 34294171320320, 'samples': 77}, io_operations={}, network_operations={}, file_operations={'open_files_count': 0}, process_operations={'cpu_total': 29.000000000000004, 'cpu_samples': 77, 'threads_total': 77, 'threads_max': 1}, context_data={}, memory_timeline=[114688, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15564800, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568, 15597568], cpu_timeline=[0.0, 21.5, 0.0, 0.0, 0.4, 0.0, 0.0, 0.2, 0.0, 0.3, 0.0, 0.0, 0.0, 0.2, 0.0, 0.0, 0.0, 0.3, 0.0, 0.3, 0.3, 0.0, 0.4, 0.0, 0.3, 0.0, 0.0, 0.3, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 0.3, 0.0, 0.3, 0.0, 0.2, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 0.2, 0.0, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 0.3, 0.1, 0.0, 0.0, 0.4, 0.2, 0.0, 0.0, 0.4, 0.0, 0.0, 0.3, 0.0, 0.3], io_timeline=[], entropy_samples=[], burst_events=[], data_volume=0)",
+      "analysis_duration": 8,
+      "status": "completed"
+    },
+    "comparison": {
+      "program_name": "advanced_polymorphic",
+      "verdict": "suspicious",
+      "best_match": {
+        "compared_with": "malicious_keylogger",
+        "is_known_malicious": true,
+        "similarity": 0.9996790553935967,
+        "match": true,
+        "suspicious": true,
+        "details": {
+          "overall_similarity": 0.9996790553935967,
+          "feature_similarities": {
+            "timing": 0.999981534530215,
+            "memory": 0.999820125133522,
+            "io": 1.0,
+            "network": 1.0,
+            "file": 1.0,
+            "process": 0.9983727196013262,
+            "rhythm": 0.9990397026470843,
+            "entropy": 0.999774812360082
+          },
+          "match": true,
+          "suspicious": true,
+          "distances": {
+            "euclidean": 0.11959615611377652,
+            "cosine": 0.000608345638025809,
+            "manhattan": 0.2708106970835926
+          }
+        }
+      },
+      "all_comparisons": [
+        {
+          "compared_with": "malicious_keylogger",
+          "is_known_malicious": true,
+          "similarity": 0.9996790553935967,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9996790553935967,
+            "feature_similarities": {
+              "timing": 0.999981534530215,
+              "memory": 0.999820125133522,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9983727196013262,
+              "rhythm": 0.9990397026470843,
+              "entropy": 0.999774812360082
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.11959615611377652,
+              "cosine": 0.000608345638025809,
+              "manhattan": 0.2708106970835926
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_disguised",
+          "is_known_malicious": true,
+          "similarity": 0.9994714019481901,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9994714019481901,
+            "feature_similarities": {
+              "timing": 0.9995691287623713,
+              "memory": 0.9999977654926452,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9985776664489604,
+              "rhythm": 0.9984305945742854,
+              "entropy": 0.9985719699486216
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.13400539501749725,
+              "cosine": 0.000812235631875935,
+              "manhattan": 0.3086840758529149
+            }
+          }
+        },
+        {
+          "compared_with": "legitimate_editor",
+          "is_known_malicious": false,
+          "similarity": 0.9985614001643541,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9985614001643541,
+            "feature_similarities": {
+              "timing": 0.9995505765762958,
+              "memory": 0.9999967925206795,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9975679461345952,
+              "rhythm": 0.9889563395138299,
+              "entropy": 0.9999949778011659
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.18296497628008385,
+              "cosine": 0.0015146091465196854,
+              "manhattan": 0.3828515015848078
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_apt",
+          "is_known_malicious": true,
+          "similarity": 0.998525877110648,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.998525877110648,
+            "feature_similarities": {
+              "timing": 0.9995603868809205,
+              "memory": 0.9999994844713689,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9998486223690565,
+              "rhythm": 0.98736325835454,
+              "entropy": 0.9989271476783042
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.18859702769186903,
+              "cosine": 0.0016052321815344106,
+              "manhattan": 0.3954672448082248
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_rootkit",
+          "is_known_malicious": true,
+          "similarity": 0.9973507555261103,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9973507555261103,
+            "feature_similarities": {
+              "timing": 0.9998936514740774,
+              "memory": 0.9952682856065603,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.983946200316955,
+              "rhythm": 0.9994619398476007,
+              "entropy": 0.9997755409352721
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3301397269349683,
+              "cosine": 0.004761768634204855,
+              "manhattan": 0.9486174982010019
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_fileless",
+          "is_known_malicious": true,
+          "similarity": 0.9955865922454465,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9955865922454465,
+            "feature_similarities": {
+              "timing": 0.9987536537303241,
+              "memory": 0.9893680118656667,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9907726607884961,
+              "rhythm": 0.9938792803996175,
+              "entropy": 0.99497065007437
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.46083221075765946,
+              "cosine": 0.009124683983645077,
+              "manhattan": 1.3760568122022727
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_zeroday",
+          "is_known_malicious": true,
+          "similarity": 0.9449809099371563,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9449809099371563,
+            "feature_similarities": {
+              "timing": 0.9993750152268556,
+              "memory": 0.9911775805079736,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9915225728853526,
+              "rhythm": 0.9807440858986122,
+              "entropy": 0.9964372491179396
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.45093743153542787,
+              "cosine": 0.008913686789438269,
+              "manhattan": 1.4174938885073631
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_ransomware",
+          "is_known_malicious": true,
+          "similarity": 0.9052125238304981,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9052125238304981,
+            "feature_similarities": {
+              "timing": 0.9725776310177715,
+              "memory": 0.9070542065946007,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8406607052759318,
+              "rhythm": 0.9831249563896605,
+              "entropy": 0.9690759014146441
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 3.1118952144095724,
+              "cosine": 0.18041638867383714,
+              "manhattan": 7.631326705409894
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_encrypted",
+          "is_known_malicious": true,
+          "similarity": 0.4900232672290925,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.4900232672290925,
+            "feature_similarities": {
+              "timing": 0.844460427343809,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.19833645681991574,
+              "rhythm": 0.012975360783391121,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3170581167536595,
+              "cosine": 0.6932545197304062,
+              "manhattan": 12.925974200066134
+            }
+          }
+        }
+      ],
+      "aggregate_scores": {
+        "malware_score": 0.9672243190571516,
+        "clean_score": 0.9985614001643541,
+        "maliciousness_index": -0.03133708110720257,
+        "high_sim_malware_count": 7,
+        "max_malware_similarity": 0.9996790553935967,
+        "max_clean_similarity": 0.9985614001643541
+      }
+    },
+    "timestamp": 1779702087.892156
+  },
+  {
+    "program_name": "advanced_encrypted",
+    "is_known_malicious": true,
+    "analysis": {
+      "program_name": "advanced_encrypted",
+      "pid": 56867,
+      "fingerprint": "DNAFingerprint(timing_vector=[0.0002810955047607422, 0.0, 0.0002810955047607422, 0.0002810955047607422, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.001], memory_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], io_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], network_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], file_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], process_vector=[0.0, 0.0, 0.0, 0.0, 0.1, 0.2, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], rhythm_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.001, 0.0, 0.0002810955047607422, 0.0002810955047607422], entropy_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], raw_hash='585740eb7a2f99651fe2910bb38dc58eacfbf9ba2082240db979a303116adbef', creation_timestamp=1779702056.1802611)",
+      "behavioral_data": "BehavioralData(syscall_sequence=[], timing_patterns=[0.0002810955047607422], memory_operations={'rss_total': 114688, 'vms_total': 419900637184, 'samples': 1}, io_operations={}, network_operations={}, file_operations={'open_files_count': 0}, process_operations={'cpu_total': 0.0, 'cpu_samples': 1, 'threads_total': 1, 'threads_max': 1}, context_data={}, memory_timeline=[114688], cpu_timeline=[0.0], io_timeline=[], entropy_samples=[], burst_events=[], data_volume=0)",
+      "analysis_duration": 8,
+      "status": "completed"
+    },
+    "comparison": {
+      "program_name": "advanced_encrypted",
+      "verdict": "suspicious",
+      "best_match": {
+        "compared_with": "advanced_rootkit",
+        "is_known_malicious": true,
+        "similarity": 0.5049981918608244,
+        "match": false,
+        "suspicious": false,
+        "details": {
+          "overall_similarity": 0.5049981918608244,
+          "feature_similarities": {
+            "timing": 0.844155655740384,
+            "memory": 0.0,
+            "io": 1.0,
+            "network": 1.0,
+            "file": 1.0,
+            "process": 0.346067487746586,
+            "rhythm": 0.015603119380890207,
+            "entropy": 0.0
+          },
+          "match": false,
+          "suspicious": false,
+          "distances": {
+            "euclidean": 3.3544902197841333,
+            "cosine": 0.6928025257204362,
+            "manhattan": 13.077406086938327
+          }
+        }
+      },
+      "all_comparisons": [
+        {
+          "compared_with": "advanced_rootkit",
+          "is_known_malicious": true,
+          "similarity": 0.5049981918608244,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.5049981918608244,
+            "feature_similarities": {
+              "timing": 0.844155655740384,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.346067487746586,
+              "rhythm": 0.015603119380890207,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3544902197841333,
+              "cosine": 0.6928025257204362,
+              "manhattan": 13.077406086938327
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_fileless",
+          "is_known_malicious": true,
+          "similarity": 0.49092997759856644,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.49092997759856644,
+            "feature_similarities": {
+              "timing": 0.8416927669417075,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.2086248745945276,
+              "rhythm": 0.01728936750772192,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.398642311147392,
+              "cosine": 0.7024619138839836,
+              "manhattan": 13.21833399703861
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_apt",
+          "is_known_malicious": true,
+          "similarity": 0.4900491223033912,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.4900491223033912,
+            "feature_similarities": {
+              "timing": 0.845068992584491,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.19772771789417987,
+              "rhythm": 0.012625519970750121,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3214174274658133,
+              "cosine": 0.6936381283097068,
+              "manhattan": 12.996089814597424
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_polymorphic",
+          "is_known_malicious": true,
+          "similarity": 0.4900232672290925,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.4900232672290925,
+            "feature_similarities": {
+              "timing": 0.844460427343809,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.19833645681991574,
+              "rhythm": 0.012975360783391121,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3170581167536595,
+              "cosine": 0.6932545197304062,
+              "manhattan": 12.925974200066134
+            }
+          }
+        },
+        {
+          "compared_with": "legitimate_editor",
+          "is_known_malicious": false,
+          "similarity": 0.4899401222749805,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.4899401222749805,
+            "feature_similarities": {
+              "timing": 0.8432488054762888,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.20017317851603622,
+              "rhythm": 0.012730433281191167,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3137941469571004,
+              "cosine": 0.6929558390747068,
+              "manhattan": 13.048783590024513
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_disguised",
+          "is_known_malicious": true,
+          "similarity": 0.48993126425375183,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.48993126425375183,
+            "feature_similarities": {
+              "timing": 0.8450266713805022,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.1962805240456451,
+              "rhythm": 0.012978775730868586,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3135375704423344,
+              "cosine": 0.6929261626947227,
+              "manhattan": 12.83635167562736
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_keylogger",
+          "is_known_malicious": true,
+          "similarity": 0.489830148353321,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.489830148353321,
+            "feature_similarities": {
+              "timing": 0.8446219266847858,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.19611639451153184,
+              "rhythm": 0.012941235652106364,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.285723601669399,
+              "cosine": 0.690331244866216,
+              "manhattan": 12.920860988610029
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_ransomware",
+          "is_known_malicious": true,
+          "similarity": 0.4438452167970019,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.4438452167970019,
+            "feature_similarities": {
+              "timing": 0.8123732008345296,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.20466694309872313,
+              "rhythm": 0.10903882320223623,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 5.205107695944357,
+              "cosine": 0.8155398504364725,
+              "manhattan": 14.816801135875746
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_zeroday",
+          "is_known_malicious": true,
+          "similarity": 0.44098238727646255,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.44098238727646255,
+            "feature_similarities": {
+              "timing": 0.8427162179046584,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.20773914776710622,
+              "rhythm": 0.016652289188202496,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3760363851031756,
+              "cosine": 0.7003533580173127,
+              "manhattan": 13.235188944677367
+            }
+          }
+        }
+      ],
+      "aggregate_scores": {
+        "malware_score": 0.49100173541888453,
+        "clean_score": 0.4899401222749805,
+        "maliciousness_index": 0.0010616131439040166,
+        "high_sim_malware_count": 0,
+        "max_malware_similarity": 0.5049981918608244,
+        "max_clean_similarity": 0.4899401222749805
+      }
+    },
+    "timestamp": 1779702087.89411
+  },
+  {
+    "program_name": "advanced_rootkit",
+    "is_known_malicious": true,
+    "analysis": {
+      "program_name": "advanced_rootkit",
+      "pid": 56868,
+      "fingerprint": "DNAFingerprint(timing_vector=[0.10275398194789886, 0.01301958102298386, 0.00010085105895996094, 0.10538721084594727, 0.1267063404860106, 1.0, 0.0, 0.049557237784783104, 0.8732936595139894, 0.09731982946481307, 0.01327926699949124, 0.064], memory_vector=[0.14853759765625, 0.001424935577891652, 0.12506313545361203, 0.5080784339507898, 0.031215571061329415, 0.015873015873015872, 0.64, 0.00109375, 0.1509375, 1.857657769563772, 0.001424935577891652, 0.031215571061329415], io_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], network_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], file_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], process_vector=[0.0036250000000000084, 0.175, 1.0, 0.015625, 0.2, 0.359375, 0.64, 0.0, 0.0, 0.0, 0.0, 0.0], rhythm_vector=[0.049557237784783104, 0.06953058561028065, 0.06704852935635731, 0.08940677058997809, 0.0, 0.984375, 0.015625, 0.05828608412141087, 0.064, 0.0, 0.10522854328155518, 0.10533838272094727], entropy_vector=[0.5977127676934653, 0.5977279439138158, 0.21512484754264616, 0.0, 0.9961879461557754, 0.9962132398563597, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], raw_hash='9153101f4447b185610dd391cbd570e3fed8759c891f71e9d9d975ad46d88287', creation_timestamp=1779702062.864427)",
+      "behavioral_data": "BehavioralData(syscall_sequence=[], timing_patterns=[0.00010085105895996094, 0.10509800910949707, 0.10515499114990234, 0.1027219295501709, 0.10155606269836426, 0.1052849292755127, 0.10129904747009277, 0.10526299476623535, 0.10532975196838379, 0.10441136360168457, 0.10529494285583496, 0.10533595085144043, 0.10527801513671875, 0.10518002510070801, 0.10320782661437988, 0.10529804229736328, 0.10527396202087402, 0.10527491569519043, 0.10523319244384766, 0.10522913932800293, 0.10526371002197266, 0.10538721084594727, 0.1052699089050293, 0.1052701473236084, 0.10504889488220215, 0.10536003112792969, 0.10242080688476562, 0.10127806663513184, 0.1051480770111084, 0.10177803039550781, 0.10521912574768066, 0.10528373718261719, 0.10429811477661133, 0.1052708625793457, 0.10525107383728027, 0.10527586936950684, 0.10525012016296387, 0.10530519485473633, 0.10527372360229492, 0.10527920722961426, 0.10522794723510742, 0.10160088539123535, 0.10529613494873047, 0.10097789764404297, 0.10530304908752441, 0.10516095161437988, 0.10515999794006348, 0.10106110572814941, 0.10504293441772461, 0.10532617568969727, 0.10533976554870605, 0.10135912895202637, 0.1015479564666748, 0.10137724876403809, 0.10501980781555176, 0.10533881187438965, 0.10209918022155762, 0.10201501846313477, 0.10529899597167969, 0.10521388053894043, 0.10503292083740234, 0.10531830787658691, 0.10506892204284668, 0.10530996322631836], memory_operations={'rss_total': 996818944, 'vms_total': 28500706902016, 'samples': 64}, io_operations={}, network_operations={}, file_operations={'open_files_count': 0}, process_operations={'cpu_total': 23.200000000000053, 'cpu_samples': 64, 'threads_total': 115, 'threads_max': 2}, context_data={}, memory_timeline=[114688, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15826944, 15794176, 15794176, 15794176, 15794176, 15794176, 15794176, 15794176, 15794176, 15794176, 15794176, 15794176, 15794176], cpu_timeline=[0.0, 17.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.0, 0.1, 0.0, 0.0, 0.0, 0.1, 0.1, 0.1, 0.2, 0.4, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0], io_timeline=[], entropy_samples=[], burst_events=[], data_volume=0)",
+      "analysis_duration": 8,
+      "status": "completed"
+    },
+    "comparison": {
+      "program_name": "advanced_rootkit",
+      "verdict": "suspicious",
+      "best_match": {
+        "compared_with": "advanced_fileless",
+        "is_known_malicious": true,
+        "similarity": 0.9975443717234467,
+        "match": true,
+        "suspicious": true,
+        "details": {
+          "overall_similarity": 0.9975443717234467,
+          "feature_similarities": {
+            "timing": 0.9989346613559086,
+            "memory": 0.9987695219524416,
+            "io": 1.0,
+            "network": 1.0,
+            "file": 1.0,
+            "process": 0.987971270322427,
+            "rhythm": 0.9958717510100434,
+            "entropy": 0.996192329285295
+          },
+          "match": true,
+          "suspicious": true,
+          "distances": {
+            "euclidean": 0.3045587335856999,
+            "cosine": 0.0040032094548992925,
+            "manhattan": 1.051736699734945
+          }
+        }
+      },
+      "all_comparisons": [
+        {
+          "compared_with": "advanced_fileless",
+          "is_known_malicious": true,
+          "similarity": 0.9975443717234467,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9975443717234467,
+            "feature_similarities": {
+              "timing": 0.9989346613559086,
+              "memory": 0.9987695219524416,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.987971270322427,
+              "rhythm": 0.9958717510100434,
+              "entropy": 0.996192329285295
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3045587335856999,
+              "cosine": 0.0040032094548992925,
+              "manhattan": 1.051736699734945
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_polymorphic",
+          "is_known_malicious": true,
+          "similarity": 0.9973507555261103,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9973507555261103,
+            "feature_similarities": {
+              "timing": 0.9998936514740774,
+              "memory": 0.9952682856065603,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.983946200316955,
+              "rhythm": 0.9994619398476007,
+              "entropy": 0.9997755409352721
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3301397269349683,
+              "cosine": 0.004761768634204855,
+              "manhattan": 0.9486174982010019
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_disguised",
+          "is_known_malicious": true,
+          "similarity": 0.9967322575119049,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9967322575119049,
+            "feature_similarities": {
+              "timing": 0.999496797176418,
+              "memory": 0.9950834642884985,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9812045016689278,
+              "rhythm": 0.9990858455295785,
+              "entropy": 0.9978717049907093
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3678045513001584,
+              "cosine": 0.005924921845435582,
+              "manhattan": 1.1784377752492512
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_keylogger",
+          "is_known_malicious": true,
+          "similarity": 0.9966550031408176,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9966550031408176,
+            "feature_similarities": {
+              "timing": 0.9998806520352758,
+              "memory": 0.9933966141974184,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9809095269173465,
+              "rhythm": 0.9997246964955454,
+              "entropy": 0.9993612755298952
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3932667877929855,
+              "cosine": 0.006686790374196061,
+              "manhattan": 1.149909112380017
+            }
+          }
+        },
+        {
+          "compared_with": "legitimate_editor",
+          "is_known_malicious": false,
+          "similarity": 0.9964078659983582,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9964078659983582,
+            "feature_similarities": {
+              "timing": 0.9994126443490089,
+              "memory": 0.995043593404322,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9833075849371903,
+              "rhythm": 0.9921163255411624,
+              "entropy": 0.9997422739985666
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.36263799881167197,
+              "cosine": 0.005757143940025133,
+              "manhattan": 1.1901068501346828
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_apt",
+          "is_known_malicious": true,
+          "similarity": 0.9958350335339399,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9958350335339399,
+            "feature_similarities": {
+              "timing": 0.999488201834491,
+              "memory": 0.9951889710832588,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9833592487244022,
+              "rhythm": 0.9873465376834868,
+              "entropy": 0.9982902030960096
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3852416819210641,
+              "cosine": 0.006528174632658534,
+              "manhattan": 1.2898291390673742
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_zeroday",
+          "is_known_malicious": true,
+          "similarity": 0.9461160965436746,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9461160965436746,
+            "feature_similarities": {
+              "timing": 0.9995539445392349,
+              "memory": 0.9993536072907013,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9877066419026381,
+              "rhythm": 0.9781577719141479,
+              "entropy": 0.9974814479600872
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3480389272905418,
+              "cosine": 0.005311130357378069,
+              "manhattan": 1.1575883219572116
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_ransomware",
+          "is_known_malicious": true,
+          "similarity": 0.9161805532858119,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9161805532858119,
+            "feature_similarities": {
+              "timing": 0.9754611328141731,
+              "memory": 0.9425460500890659,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8702581369974272,
+              "rhythm": 0.9827544619244896,
+              "entropy": 0.9727785681297241
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 2.887809850187365,
+              "cosine": 0.14439158864240453,
+              "manhattan": 7.383970780149159
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_encrypted",
+          "is_known_malicious": true,
+          "similarity": 0.5049981918608244,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.5049981918608244,
+            "feature_similarities": {
+              "timing": 0.844155655740384,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.346067487746586,
+              "rhythm": 0.015603119380890207,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3544902197841333,
+              "cosine": 0.6928025257204362,
+              "manhattan": 13.077406086938327
+            }
+          }
+        }
+      ],
+      "aggregate_scores": {
+        "malware_score": 0.9671179097770771,
+        "clean_score": 0.9964078659983582,
+        "maliciousness_index": -0.029289956221281055,
+        "high_sim_malware_count": 7,
+        "max_malware_similarity": 0.9975443717234467,
+        "max_clean_similarity": 0.9964078659983582
+      }
+    },
+    "timestamp": 1779702087.896213
+  },
+  {
+    "program_name": "advanced_fileless",
+    "is_known_malicious": true,
+    "analysis": {
+      "program_name": "advanced_fileless",
+      "pid": 56871,
+      "fingerprint": "DNAFingerprint(timing_vector=[0.10212673638996325, 0.013710752545573962, 0.00029087066650390625, 0.10541415214538574, 0.13425233225137526, 1.0, 0.0, 0.11042045912249, 0.8657476677486248, 0.0979175517938393, 0.014112037969510364, 0.057], memory_vector=[0.14773026315789475, 0.002271716393926338, 0.13287586592693054, 0.512441549766199, 0.050900320039553915, 0.017857142857142856, 0.57, 0.00109375, 0.15140625, 1.9629786640718587, 0.002271716393926338, 0.050900320039553915], io_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], network_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], file_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], process_vector=[0.007561403508771933, 0.218, 1.0, 0.017543859649122806, 0.1, 0.2, 0.57, 0.0, 0.0, 0.0, 0.0, 0.0], rhythm_vector=[0.11042045912249, 0.10120816663297183, 0.12840418775693585, 0.10081448871822939, 0.0, 0.9824561403508771, 0.01754385964912286, 0.057581248541873936, 0.057, 0.0, 0.10514497756958008, 0.10536279678344726], entropy_vector=[0.5807163072473289, 0.5807310035396906, 0.3587447551589505, 0.0, 0.9955893319385456, 0.9956145274973957, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], raw_hash='d8bff3d070f3a2fe53b6135201ffdccabb56ee095eb10341659f9170cac9925f', creation_timestamp=1779702068.800877)",
+      "behavioral_data": "BehavioralData(syscall_sequence=[], timing_patterns=[0.00029087066650390625, 0.10513901710510254, 0.10516595840454102, 0.10529923439025879, 0.10163474082946777, 0.10531091690063477, 0.10529708862304688, 0.10514497756958008, 0.10532903671264648, 0.10209202766418457, 0.10530495643615723, 0.10528302192687988, 0.10394501686096191, 0.10129618644714355, 0.1016838550567627, 0.10204219818115234, 0.10539698600769043, 0.10100984573364258, 0.10531997680664062, 0.10529899597167969, 0.10525679588317871, 0.10541415214538574, 0.10020899772644043, 0.10528206825256348, 0.10161304473876953, 0.10520076751708984, 0.10270524024963379, 0.10424304008483887, 0.10534191131591797, 0.10187387466430664, 0.10529398918151855, 0.10183095932006836, 0.10530400276184082, 0.10249495506286621, 0.10101509094238281, 0.1050560474395752, 0.10422492027282715, 0.10536623001098633, 0.1039438247680664, 0.10532307624816895, 0.1050410270690918, 0.10518407821655273, 0.10116100311279297, 0.10531878471374512, 0.10156607627868652, 0.10254883766174316, 0.1051630973815918, 0.10368514060974121, 0.10531187057495117, 0.1053011417388916, 0.1051478385925293, 0.10167407989501953, 0.10128998756408691, 0.10258817672729492, 0.10524582862854004, 0.1053619384765625, 0.10535717010498047], memory_operations={'rss_total': 882966528, 'vms_total': 25379860267008, 'samples': 57}, io_operations={}, network_operations={}, file_operations={'open_files_count': 0}, process_operations={'cpu_total': 43.10000000000002, 'cpu_samples': 57, 'threads_total': 57, 'threads_max': 1}, context_data={}, memory_timeline=[114688, 15499264, 15532032, 15532032, 15548416, 15548416, 15564800, 15581184, 15597568, 15597568, 15597568, 15613952, 15630336, 15630336, 15663104, 15663104, 15679488, 15695872, 15712256, 15712256, 15728640, 15728640, 15745024, 15745024, 15761408, 15777792, 15794176, 15794176, 15810560, 15826944, 15826944, 15843328, 15843328, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096, 15876096], cpu_timeline=[0.0, 21.8, 0.6, 0.3, 0.6, 0.6, 0.6, 0.5, 1.0, 0.3, 0.3, 0.5, 0.5, 0.5, 0.7, 0.4, 0.5, 0.7, 0.6, 0.5, 0.7, 0.4, 0.6, 0.4, 0.7, 0.9, 0.6, 0.7, 0.3, 0.5, 0.3, 0.7, 0.3, 0.7, 0.6, 0.7, 0.6, 0.7, 0.6, 0.3, 0.0, 0.0, 0.1, 0.0, 0.1, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], io_timeline=[], entropy_samples=[], burst_events=[], data_volume=0)",
+      "analysis_duration": 8,
+      "status": "completed"
+    },
+    "comparison": {
+      "program_name": "advanced_fileless",
+      "verdict": "suspicious",
+      "best_match": {
+        "compared_with": "advanced_rootkit",
+        "is_known_malicious": true,
+        "similarity": 0.9975443717234467,
+        "match": true,
+        "suspicious": true,
+        "details": {
+          "overall_similarity": 0.9975443717234467,
+          "feature_similarities": {
+            "timing": 0.9989346613559086,
+            "memory": 0.9987695219524416,
+            "io": 1.0,
+            "network": 1.0,
+            "file": 1.0,
+            "process": 0.987971270322427,
+            "rhythm": 0.9958717510100434,
+            "entropy": 0.996192329285295
+          },
+          "match": true,
+          "suspicious": true,
+          "distances": {
+            "euclidean": 0.3045587335856999,
+            "cosine": 0.0040032094548992925,
+            "manhattan": 1.051736699734945
+          }
+        }
+      },
+      "all_comparisons": [
+        {
+          "compared_with": "advanced_rootkit",
+          "is_known_malicious": true,
+          "similarity": 0.9975443717234467,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9975443717234467,
+            "feature_similarities": {
+              "timing": 0.9989346613559086,
+              "memory": 0.9987695219524416,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.987971270322427,
+              "rhythm": 0.9958717510100434,
+              "entropy": 0.996192329285295
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3045587335856999,
+              "cosine": 0.0040032094548992925,
+              "manhattan": 1.051736699734945
+            }
+          }
+        },
+        {
+          "compared_with": "legitimate_editor",
+          "is_known_malicious": false,
+          "similarity": 0.9956853531208809,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9956853531208809,
+            "feature_similarities": {
+              "timing": 0.99963309321941,
+              "memory": 0.9890281451992842,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9870251291886354,
+              "rhythm": 0.9978421267670243,
+              "entropy": 0.9946637984157608
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.4664385216463845,
+              "cosine": 0.009340987262888345,
+              "manhattan": 1.363092006007934
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_polymorphic",
+          "is_known_malicious": true,
+          "similarity": 0.9955865922454465,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9955865922454465,
+            "feature_similarities": {
+              "timing": 0.9987536537303241,
+              "memory": 0.9893680118656667,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9907726607884961,
+              "rhythm": 0.9938792803996175,
+              "entropy": 0.99497065007437
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.46083221075765946,
+              "cosine": 0.009124683983645077,
+              "manhattan": 1.3760568122022727
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_keylogger",
+          "is_known_malicious": true,
+          "similarity": 0.9949427706645796,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9949427706645796,
+            "feature_similarities": {
+              "timing": 0.9984644463811321,
+              "memory": 0.9866636450532827,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9902536005996718,
+              "rhythm": 0.9961924828914444,
+              "entropy": 0.9927254402858492
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.5232793469778227,
+              "cosine": 0.011695420677092505,
+              "manhattan": 1.5384124289133108
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_disguised",
+          "is_known_malicious": true,
+          "similarity": 0.9943880054310764,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9943880054310764,
+            "feature_similarities": {
+              "timing": 0.9970275685747674,
+              "memory": 0.9890857486865502,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9903847372603428,
+              "rhythm": 0.9928070936791098,
+              "entropy": 0.9884615888486759
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.5161514918983485,
+              "cosine": 0.011500988535354528,
+              "manhattan": 1.602674798243417
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_apt",
+          "is_known_malicious": true,
+          "similarity": 0.9936222259625274,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9936222259625274,
+            "feature_similarities": {
+              "timing": 0.9970054801137987,
+              "memory": 0.9892537004880273,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9909550941045496,
+              "rhythm": 0.9832562871528838,
+              "entropy": 0.9894925171641881
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.5239424911461756,
+              "cosine": 0.01188456212823652,
+              "manhattan": 1.6471376258848107
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_zeroday",
+          "is_known_malicious": true,
+          "similarity": 0.9477929399050711,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9477929399050711,
+            "feature_similarities": {
+              "timing": 0.9998650617258266,
+              "memory": 0.9998862594750303,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9999240903170321,
+              "rhythm": 0.9786357434252663,
+              "entropy": 0.9998669229066979
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.24675142698136743,
+              "cosine": 0.002625810234092807,
+              "manhattan": 0.609814193602105
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_ransomware",
+          "is_known_malicious": true,
+          "similarity": 0.9200613544274135,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9200613544274135,
+            "feature_similarities": {
+              "timing": 0.974563966006528,
+              "memory": 0.9574646474900008,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.902357142474983,
+              "rhythm": 0.9693540081703147,
+              "entropy": 0.9648451666357797
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 2.7647510023878827,
+              "cosine": 0.1264613287694365,
+              "manhattan": 7.071957421610336
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_encrypted",
+          "is_known_malicious": true,
+          "similarity": 0.49092997759856644,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.49092997759856644,
+            "feature_similarities": {
+              "timing": 0.8416927669417075,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.2086248745945276,
+              "rhythm": 0.01728936750772192,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.398642311147392,
+              "cosine": 0.7024619138839836,
+              "manhattan": 13.21833399703861
+            }
+          }
+        }
+      ],
+      "aggregate_scores": {
+        "malware_score": 0.9658623099627439,
+        "clean_score": 0.9956853531208809,
+        "maliciousness_index": -0.029823043158136997,
+        "high_sim_malware_count": 7,
+        "max_malware_similarity": 0.9975443717234467,
+        "max_clean_similarity": 0.9956853531208809
+      }
+    },
+    "timestamp": 1779702087.898109
+  },
+  {
+    "program_name": "advanced_apt",
+    "is_known_malicious": true,
+    "analysis": {
+      "program_name": "advanced_apt",
+      "pid": 56873,
+      "fingerprint": "DNAFingerprint(timing_vector=[0.10302397492644075, 0.011858625631169305, 0.00030517578125, 0.10535287857055664, 0.11510549500382197, 1.0, 0.0, 0.011259724829562818, 0.884894504996178, 0.09706478523217545, 0.011997131291989524, 0.077], memory_vector=[0.14646712662337663, 0.0010395882077469086, 0.11385554404571403, 0.5072597292841408, 0.02815402137725605, 0.013157894736842105, 0.77, 0.00109375, 0.14859375, 1.6676094386517033, 0.0010395882077469086, 0.02815402137725605], io_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], network_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], file_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], process_vector=[0.0035844155844155885, 0.23800000000000002, 1.0, 0.012987012987012988, 0.1, 0.2, 0.77, 0.0, 0.0, 0.0, 0.0, 0.0], rhythm_vector=[0.011259724829562818, 0.10753416063880372, 0.059967314284308786, 0.245141505212867, 0.0, 0.987012987012987, 0.012987012987012991, 0.05061756894388258, 0.077, 0.0, 0.10517692565917969, 0.10530261993408203], entropy_vector=[0.6247805514485688, 0.6247926811996517, 0.12499497188532036, 0.0, 0.9969711707769278, 0.9969905263924479, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], raw_hash='749cd9d81933c71c3ea205eb8cfeacd55cded20995f553a35a4d7385a432834f', creation_timestamp=1779702081.8200278)",
+      "behavioral_data": "BehavioralData(syscall_sequence=[], timing_patterns=[0.00030517578125, 0.1044161319732666, 0.10526275634765625, 0.10393595695495605, 0.10435318946838379, 0.10527777671813965, 0.10529518127441406, 0.10332393646240234, 0.105316162109375, 0.10526084899902344, 0.10518717765808105, 0.10368680953979492, 0.10534501075744629, 0.10503721237182617, 0.10189962387084961, 0.10525012016296387, 0.10525894165039062, 0.1051931381225586, 0.10520315170288086, 0.10527372360229492, 0.10133504867553711, 0.1026310920715332, 0.10524678230285645, 0.10232329368591309, 0.1051490306854248, 0.10518503189086914, 0.10528373718261719, 0.10521316528320312, 0.10525703430175781, 0.10305404663085938, 0.10073399543762207, 0.10239481925964355, 0.10046696662902832, 0.10483026504516602, 0.10471677780151367, 0.10517406463623047, 0.1043539047241211, 0.10529518127441406, 0.10520195960998535, 0.1028127670288086, 0.1035451889038086, 0.10415887832641602, 0.10512304306030273, 0.105255126953125, 0.10366582870483398, 0.10402822494506836, 0.10511374473571777, 0.10261917114257812, 0.10171914100646973, 0.10521483421325684, 0.10495114326477051, 0.10535287857055664, 0.10532093048095703, 0.10439801216125488, 0.10165786743164062, 0.10524320602416992, 0.10521292686462402, 0.10154008865356445, 0.10465383529663086, 0.10529923439025879, 0.10520291328430176, 0.10517692565917969, 0.1051938533782959, 0.10518717765808105, 0.10521388053894043, 0.10518598556518555, 0.1052391529083252, 0.10518288612365723, 0.10516810417175293, 0.10521888732910156, 0.10520124435424805, 0.10515093803405762, 0.10044479370117188, 0.10528898239135742, 0.10524916648864746, 0.10520601272583008, 0.10352087020874023], memory_operations={'rss_total': 1182580736, 'vms_total': 34294157623296, 'samples': 77}, io_operations={}, network_operations={}, file_operations={'open_files_count': 0}, process_operations={'cpu_total': 27.60000000000003, 'cpu_samples': 77, 'threads_total': 77, 'threads_max': 1}, context_data={}, memory_timeline=[114688, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15548416, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184, 15581184], cpu_timeline=[0.0, 23.8, 0.1, 0.1, 0.0, 0.0, 0.1, 0.1, 0.1, 0.1, 0.0, 0.0, 0.1, 0.1, 0.0, 0.1, 0.1, 0.1, 0.0, 0.0, 0.1, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.0, 0.0, 0.1, 0.2, 0.2, 0.1, 0.1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], io_timeline=[], entropy_samples=[], burst_events=[], data_volume=0)",
+      "analysis_duration": 8,
+      "status": "completed"
+    },
+    "comparison": {
+      "program_name": "advanced_apt",
+      "verdict": "suspicious",
+      "best_match": {
+        "compared_with": "malicious_disguised",
+        "is_known_malicious": true,
+        "similarity": 0.9987085548028937,
+        "match": true,
+        "suspicious": true,
+        "details": {
+          "overall_similarity": 0.9987085548028937,
+          "feature_similarities": {
+            "timing": 0.9999999512842781,
+            "memory": 0.9999989423811506,
+            "io": 1.0,
+            "network": 1.0,
+            "file": 1.0,
+            "process": 0.9993540728973433,
+            "rhythm": 0.9877590533185435,
+            "entropy": 0.9999746344821917
+          },
+          "match": true,
+          "suspicious": true,
+          "distances": {
+            "euclidean": 0.17030469417060234,
+            "cosine": 0.0013082199401313055,
+            "manhattan": 0.2904388521505571
+          }
+        }
+      },
+      "all_comparisons": [
+        {
+          "compared_with": "malicious_disguised",
+          "is_known_malicious": true,
+          "similarity": 0.9987085548028937,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9987085548028937,
+            "feature_similarities": {
+              "timing": 0.9999999512842781,
+              "memory": 0.9999989423811506,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9993540728973433,
+              "rhythm": 0.9877590533185435,
+              "entropy": 0.9999746344821917
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.17030469417060234,
+              "cosine": 0.0013082199401313055,
+              "manhattan": 0.2904388521505571
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_keylogger",
+          "is_known_malicious": true,
+          "similarity": 0.9986608199036466,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9986608199036466,
+            "feature_similarities": {
+              "timing": 0.9997220328220421,
+              "memory": 0.999837079857623,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9992136096824289,
+              "rhythm": 0.9885914390093274,
+              "entropy": 0.9996849249853792
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.18717125253568673,
+              "cosine": 0.001539091172175877,
+              "manhattan": 0.45059739212036404
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_polymorphic",
+          "is_known_malicious": true,
+          "similarity": 0.998525877110648,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.998525877110648,
+            "feature_similarities": {
+              "timing": 0.9995603868809205,
+              "memory": 0.9999994844713689,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9998486223690565,
+              "rhythm": 0.98736325835454,
+              "entropy": 0.9989271476783042
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.18859702769186903,
+              "cosine": 0.0016052321815344106,
+              "manhattan": 0.3954672448082248
+            }
+          }
+        },
+        {
+          "compared_with": "legitimate_editor",
+          "is_known_malicious": false,
+          "similarity": 0.9967653287182897,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9967653287182897,
+            "feature_similarities": {
+              "timing": 0.9982225411273645,
+              "memory": 0.9999984345066226,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9962046308330617,
+              "rhythm": 0.975937806784847,
+              "entropy": 0.9990688982970138
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.2765481778194193,
+              "cosine": 0.0034541300269377295,
+              "manhattan": 0.6648700856584953
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_rootkit",
+          "is_known_malicious": true,
+          "similarity": 0.9958350335339399,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9958350335339399,
+            "feature_similarities": {
+              "timing": 0.999488201834491,
+              "memory": 0.9951889710832588,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9833592487244022,
+              "rhythm": 0.9873465376834868,
+              "entropy": 0.9982902030960096
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3852416819210641,
+              "cosine": 0.006528174632658534,
+              "manhattan": 1.2898291390673742
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_fileless",
+          "is_known_malicious": true,
+          "similarity": 0.9936222259625274,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9936222259625274,
+            "feature_similarities": {
+              "timing": 0.9970054801137987,
+              "memory": 0.9892537004880273,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9909550941045496,
+              "rhythm": 0.9832562871528838,
+              "entropy": 0.9894925171641881
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.5239424911461756,
+              "cosine": 0.01188456212823652,
+              "manhattan": 1.6471376258848107
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_zeroday",
+          "is_known_malicious": true,
+          "similarity": 0.9435180178321536,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9435180178321536,
+            "feature_similarities": {
+              "timing": 0.9981112958858852,
+              "memory": 0.9910728199218762,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9918744675605237,
+              "rhythm": 0.9732317477462089,
+              "entropy": 0.9917057313992809
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.5018567526327429,
+              "cosine": 0.011077724545232703,
+              "manhattan": 1.6930228681918407
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_ransomware",
+          "is_known_malicious": true,
+          "similarity": 0.9032320418200782,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9032320418200782,
+            "feature_similarities": {
+              "timing": 0.9732231436999156,
+              "memory": 0.9067056257527087,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.8445560202843126,
+              "rhythm": 0.9566160507462651,
+              "entropy": 0.9712908082649557
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 3.119993079011099,
+              "cosine": 0.18211219481464447,
+              "manhattan": 7.661307638702258
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_encrypted",
+          "is_known_malicious": true,
+          "similarity": 0.4900491223033912,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.4900491223033912,
+            "feature_similarities": {
+              "timing": 0.845068992584491,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.19772771789417987,
+              "rhythm": 0.012625519970750121,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3214174274658133,
+              "cosine": 0.6936381283097068,
+              "manhattan": 12.996089814597424
+            }
+          }
+        }
+      ],
+      "aggregate_scores": {
+        "malware_score": 0.9662415209573116,
+        "clean_score": 0.9967653287182897,
+        "maliciousness_index": -0.030523807760978072,
+        "high_sim_malware_count": 7,
+        "max_malware_similarity": 0.9987085548028937,
+        "max_clean_similarity": 0.9967653287182897
+      }
+    },
+    "timestamp": 1779702087.8998668
+  },
+  {
+    "program_name": "advanced_zeroday",
+    "is_known_malicious": true,
+    "analysis": {
+      "program_name": "advanced_zeroday",
+      "pid": 56876,
+      "fingerprint": "DNAFingerprint(timing_vector=[0.1023292952570422, 0.013595548183104983, 0.00028896331787109375, 0.10558009147644043, 0.1328607623941332, 1.0, 0.0, 0.08839706095515897, 0.8671392376058669, 0.0977237258878885, 0.01392122034470061, 0.058], memory_vector=[0.14516433189655173, 0.001848354323150101, 0.13146407402398932, 0.5096594599610281, 0.03808767351261387, 0.017543859649122806, 0.58, 0.00109375, 0.14796875, 1.9083894474091232, 0.001848354323150101, 0.03808767351261387], io_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], network_vector=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0], file_vector=[0.1, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], process_vector=[0.0067931034482758565, 0.231, 1.0, 0.017241379310344827, 0.1, 0.2, 0.58, 0.0, 0.0, 0.0, 0.0, 0.0], rhythm_vector=[0.08839706095515897, 0.27205565263439824, 0.0008955519920535295, 0.09997517391194259, 0.0, 0.9827586206896551, 0.017241379310344862, 0.05677093204173453, 0.058, 0.0, 0.10482347011566162, 0.10535603761672974], entropy_vector=[0.5832741680266906, 0.5832888346318421, 0.3315321416891963, 0.0, 0.9956914652195596, 0.9957165021822327, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], raw_hash='e90411f00efcfc39423b26d5036de0d747102d241ddbac3fc007092c9a529a58', creation_timestamp=1779702087.873879)",
+      "behavioral_data": "BehavioralData(syscall_sequence=[], timing_patterns=[0.00028896331787109375, 0.10521221160888672, 0.10518097877502441, 0.10393691062927246, 0.10536718368530273, 0.101165771484375, 0.10234212875366211, 0.10346293449401855, 0.1052851676940918, 0.10527992248535156, 0.10416483879089355, 0.10535407066345215, 0.10526704788208008, 0.10454988479614258, 0.10471200942993164, 0.10537004470825195, 0.10068202018737793, 0.1052849292755127, 0.10530209541320801, 0.10523509979248047, 0.1049349308013916, 0.10533618927001953, 0.10241889953613281, 0.10535287857055664, 0.1052401065826416, 0.10532999038696289, 0.10528993606567383, 0.10532808303833008, 0.10383009910583496, 0.10365080833435059, 0.10315680503845215, 0.10397219657897949, 0.10442018508911133, 0.10530376434326172, 0.10531902313232422, 0.1013650894165039, 0.10200977325439453, 0.10393118858337402, 0.10321784019470215, 0.10516905784606934, 0.10558009147644043, 0.10144186019897461, 0.10533928871154785, 0.10534381866455078, 0.10528898239135742, 0.10525918006896973, 0.1013188362121582, 0.10533499717712402, 0.1038961410522461, 0.10155081748962402, 0.10290718078613281, 0.10031986236572266, 0.10305213928222656, 0.10531473159790039, 0.10301709175109863, 0.10223913192749023, 0.10532212257385254, 0.10455179214477539], memory_operations={'rss_total': 882851840, 'vms_total': 25825594310656, 'samples': 58}, io_operations={}, network_operations={}, file_operations={'open_files_count': 1}, process_operations={'cpu_total': 39.39999999999997, 'cpu_samples': 58, 'threads_total': 58, 'threads_max': 1}, context_data={}, memory_timeline=[114688, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15466496, 15482880, 15482880, 15482880, 15482880, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648, 15515648], cpu_timeline=[0.0, 23.1, 0.4, 0.3, 0.3, 0.3, 0.4, 0.6, 0.4, 0.4, 0.4, 0.3, 0.4, 0.4, 0.4, 0.4, 0.3, 0.4, 0.4, 0.4, 0.3, 0.3, 0.4, 0.4, 0.3, 0.4, 0.4, 0.3, 0.3, 0.3, 0.4, 0.4, 0.4, 0.4, 0.3, 0.4, 0.4, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1], io_timeline=[], entropy_samples=[], burst_events=[], data_volume=0)",
+      "analysis_duration": 8,
+      "status": "completed"
+    },
+    "comparison": {
+      "program_name": "advanced_zeroday",
+      "verdict": "suspicious",
+      "best_match": {
+        "compared_with": "malicious_ransomware",
+        "is_known_malicious": true,
+        "similarity": 0.9676299380417956,
+        "match": true,
+        "suspicious": true,
+        "details": {
+          "overall_similarity": 0.9676299380417956,
+          "feature_similarities": {
+            "timing": 0.9754376826069895,
+            "memory": 0.9533760945150919,
+            "io": 1.0,
+            "network": 1.0,
+            "file": 1.0,
+            "process": 0.9015952002501807,
+            "rhythm": 0.9500828467532552,
+            "entropy": 0.9669937791703572
+          },
+          "match": true,
+          "suspicious": true,
+          "distances": {
+            "euclidean": 2.823444617982896,
+            "cosine": 0.1343693812326332,
+            "manhattan": 7.04779088060487
+          }
+        }
+      },
+      "all_comparisons": [
+        {
+          "compared_with": "malicious_ransomware",
+          "is_known_malicious": true,
+          "similarity": 0.9676299380417956,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9676299380417956,
+            "feature_similarities": {
+              "timing": 0.9754376826069895,
+              "memory": 0.9533760945150919,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 1.0,
+              "process": 0.9015952002501807,
+              "rhythm": 0.9500828467532552,
+              "entropy": 0.9669937791703572
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 2.823444617982896,
+              "cosine": 0.1343693812326332,
+              "manhattan": 7.04779088060487
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_fileless",
+          "is_known_malicious": true,
+          "similarity": 0.9477929399050711,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9477929399050711,
+            "feature_similarities": {
+              "timing": 0.9998650617258266,
+              "memory": 0.9998862594750303,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9999240903170321,
+              "rhythm": 0.9786357434252663,
+              "entropy": 0.9998669229066979
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.24675142698136743,
+              "cosine": 0.002625810234092807,
+              "manhattan": 0.609814193602105
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_rootkit",
+          "is_known_malicious": true,
+          "similarity": 0.9461160965436746,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9461160965436746,
+            "feature_similarities": {
+              "timing": 0.9995539445392349,
+              "memory": 0.9993536072907013,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9877066419026381,
+              "rhythm": 0.9781577719141479,
+              "entropy": 0.9974814479600872
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.3480389272905418,
+              "cosine": 0.005311130357378069,
+              "manhattan": 1.1575883219572116
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_polymorphic",
+          "is_known_malicious": true,
+          "similarity": 0.9449809099371563,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9449809099371563,
+            "feature_similarities": {
+              "timing": 0.9993750152268556,
+              "memory": 0.9911775805079736,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9915225728853526,
+              "rhythm": 0.9807440858986122,
+              "entropy": 0.9964372491179396
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.45093743153542787,
+              "cosine": 0.008913686789438269,
+              "manhattan": 1.4174938885073631
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_keylogger",
+          "is_known_malicious": true,
+          "similarity": 0.9439461210633815,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9439461210633815,
+            "feature_similarities": {
+              "timing": 0.999185311299584,
+              "memory": 0.9887099741685451,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9915573257343169,
+              "rhythm": 0.9775787538529135,
+              "entropy": 0.9945345601103258
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.513805672644254,
+              "cosine": 0.011525231637713906,
+              "manhattan": 1.6362515874625592
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_apt",
+          "is_known_malicious": true,
+          "similarity": 0.9435180178321536,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9435180178321536,
+            "feature_similarities": {
+              "timing": 0.9981112958858852,
+              "memory": 0.9910728199218762,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9918744675605237,
+              "rhythm": 0.9732317477462089,
+              "entropy": 0.9917057313992809
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.5018567526327429,
+              "cosine": 0.011077724545232703,
+              "manhattan": 1.6930228681918407
+            }
+          }
+        },
+        {
+          "compared_with": "legitimate_editor",
+          "is_known_malicious": false,
+          "similarity": 0.9435148010382112,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9435148010382112,
+            "feature_similarities": {
+              "timing": 0.9997637454092058,
+              "memory": 0.9908735729323241,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.9870952584937162,
+              "rhythm": 0.9705965211112518,
+              "entropy": 0.9961815940940832
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.4910666938524669,
+              "cosine": 0.010589414498241245,
+              "manhattan": 1.593613684806535
+            }
+          }
+        },
+        {
+          "compared_with": "malicious_disguised",
+          "is_known_malicious": true,
+          "similarity": 0.9433856116532463,
+          "match": true,
+          "suspicious": true,
+          "details": {
+            "overall_similarity": 0.9433856116532463,
+            "feature_similarities": {
+              "timing": 0.9981285434814459,
+              "memory": 0.9909259738149472,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.991652701966416,
+              "rhythm": 0.9733051663470276,
+              "entropy": 0.9907892136262324
+            },
+            "match": true,
+            "suspicious": true,
+            "distances": {
+              "euclidean": 0.5113061700994512,
+              "cosine": 0.011492386376773522,
+              "manhattan": 1.689173495523473
+            }
+          }
+        },
+        {
+          "compared_with": "advanced_encrypted",
+          "is_known_malicious": true,
+          "similarity": 0.44098238727646255,
+          "match": false,
+          "suspicious": false,
+          "details": {
+            "overall_similarity": 0.44098238727646255,
+            "feature_similarities": {
+              "timing": 0.8427162179046584,
+              "memory": 0.0,
+              "io": 1.0,
+              "network": 1.0,
+              "file": 0.0,
+              "process": 0.20773914776710622,
+              "rhythm": 0.016652289188202496,
+              "entropy": 0.0
+            },
+            "match": false,
+            "suspicious": false,
+            "distances": {
+              "euclidean": 3.3760363851031756,
+              "cosine": 0.7003533580173127,
+              "manhattan": 13.235188944677367
+            }
+          }
+        }
+      ],
+      "aggregate_scores": {
+        "malware_score": 0.9305412070660699,
+        "clean_score": 0.9435148010382112,
+        "maliciousness_index": -0.012973593972141262,
+        "high_sim_malware_count": 7,
+        "max_malware_similarity": 0.9676299380417956,
+        "max_clean_similarity": 0.9435148010382112
+      }
+    },
+    "timestamp": 1779702087.9016619
+  }
+]
