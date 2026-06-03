@@ -1,0 +1,836 @@
+{
+  "samples": [
+    {
+      "name": "advanced_apt.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 63.2,
+        "yara_score": 55.5,
+        "runtime_score": 24.5,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "advanced_encrypted.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 38.0,
+        "yara_score": 80.6,
+        "runtime_score": 0.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "advanced_fileless.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 33.5,
+        "yara_score": 67.5,
+        "runtime_score": 17.3,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "advanced_malware.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 224.1,
+        "yara_score": 100,
+        "runtime_score": 0.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 20.0,
+        "memory_score": 25.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "advanced_polymorphic.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 32.1,
+        "yara_score": 27.4,
+        "runtime_score": 24.2,
+        "sandbox_score": 0.0,
+        "pcap_score": 20.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "advanced_rootkit.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 35.0,
+        "yara_score": 37.5,
+        "runtime_score": 11.9,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "advanced_zeroday.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 33.1,
+        "yara_score": 75.0,
+        "runtime_score": 30.9,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 25.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "clean_data_processor.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -3.9,
+        "yara_score": 6.4,
+        "runtime_score": 2.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "clean_db_backup.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -8.0,
+        "yara_score": 0.0,
+        "runtime_score": 2.0,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "clean_devops.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -12.0,
+        "yara_score": 0.0,
+        "runtime_score": 20.2,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "clean_file_indexer.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -0.2,
+        "yara_score": 6.4,
+        "runtime_score": 0.9,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "clean_image_processor.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -8.0,
+        "yara_score": 0.0,
+        "runtime_score": 27.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "clean_programs.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -42.2,
+        "yara_score": 43.9,
+        "runtime_score": 0.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "clean_system_monitor.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -8.0,
+        "yara_score": 0.0,
+        "runtime_score": 19.9,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "clean_webserver.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -6.0,
+        "yara_score": 0.0,
+        "runtime_score": 8.7,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "legitimate_program.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -6.0,
+        "yara_score": 0.0,
+        "runtime_score": 23.7,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "malicious_disguised.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 9.6,
+        "yara_score": 21.0,
+        "runtime_score": 24.2,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "malicious_ransomware.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 46.8,
+        "yara_score": 43.9,
+        "runtime_score": 0.7,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "test_samples.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 80.3,
+        "yara_score": 100,
+        "runtime_score": 0.9,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "trojan_devtool.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 6.0,
+        "yara_score": 21.0,
+        "runtime_score": 2.0,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "trojan_package_manager.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 17.5,
+        "yara_score": 61.9,
+        "runtime_score": 2.4,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "trojan_text_editor.py",
+      "label": 0,
+      "scores": {
+        "ast_score": 19.3,
+        "yara_score": 27.4,
+        "runtime_score": 17.5,
+        "sandbox_score": 0.0,
+        "pcap_score": 20.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "ultra_adaptive.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 46.7,
+        "yara_score": 63.4,
+        "runtime_score": 4.3,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "ultra_advanced_malware.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 134.0,
+        "yara_score": 100,
+        "runtime_score": 0.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 20.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "ultra_fragmented.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 21.5,
+        "yara_score": 43.1,
+        "runtime_score": 3.1,
+        "sandbox_score": 0.0,
+        "pcap_score": 7.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "ultra_metamorphic.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 24.2,
+        "yara_score": 100,
+        "runtime_score": 4.0,
+        "sandbox_score": 0.0,
+        "pcap_score": 20.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "ultra_multilayer_encrypted.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 24.0,
+        "yara_score": 80.6,
+        "runtime_score": 4.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "ultra_supplychain.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 6.5,
+        "yara_score": 6.4,
+        "runtime_score": 3.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "ultra_timebomb.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 5.2,
+        "yara_score": 0.0,
+        "runtime_score": 10.5,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_clean_cloudbackup.py",
+      "label": 0,
+      "scores": {
+        "ast_score": 8.4,
+        "yara_score": 37.5,
+        "runtime_score": 0.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 20.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_clean_codeindexer.py",
+      "label": 0,
+      "scores": {
+        "ast_score": 5.8,
+        "yara_score": 6.4,
+        "runtime_score": 1.3,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_clean_datamigrator.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -12.0,
+        "yara_score": 0.0,
+        "runtime_score": 2.6,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_clean_devops.py",
+      "label": 0,
+      "scores": {
+        "ast_score": -12.0,
+        "yara_score": 6.4,
+        "runtime_score": 22.0,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_clean_programs.py",
+      "label": 0,
+      "scores": {
+        "ast_score": 10.5,
+        "yara_score": 100,
+        "runtime_score": 0.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 62.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_clean_security_scanner.py",
+      "label": 0,
+      "scores": {
+        "ast_score": 10.4,
+        "yara_score": 19.5,
+        "runtime_score": 6.3,
+        "sandbox_score": 0.0,
+        "pcap_score": 42.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_clean_sysmonitor.py",
+      "label": 0,
+      "scores": {
+        "ast_score": 7.8,
+        "yara_score": 6.4,
+        "runtime_score": 16.0,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_cryptic_locker.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 58.5,
+        "yara_score": 43.1,
+        "runtime_score": 6.9,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_deep_obfuscator.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 24.0,
+        "yara_score": 5.6,
+        "runtime_score": 20.5,
+        "sandbox_score": 0.0,
+        "pcap_score": 7.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_evasive_malware.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 350.8,
+        "yara_score": 100,
+        "runtime_score": 0.9,
+        "sandbox_score": 0.0,
+        "pcap_score": 41.0,
+        "memory_score": 25.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_ghost_polymorphic.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 32.4,
+        "yara_score": 5.6,
+        "runtime_score": 0.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_hidden_caller.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 33.9,
+        "yara_score": 5.6,
+        "runtime_score": 11.3,
+        "sandbox_score": 0.0,
+        "pcap_score": 7.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_phantom_encoder.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 61.8,
+        "yara_score": 80.6,
+        "runtime_score": 0.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 7.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_proc_simulator.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 23.5,
+        "yara_score": 43.1,
+        "runtime_score": 4.7,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_silent_collector.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 68.8,
+        "yara_score": 33.0,
+        "runtime_score": 5.4,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_silent_persister.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 32.4,
+        "yara_score": 61.1,
+        "runtime_score": 8.7,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_stealth_apt.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 64.4,
+        "yara_score": 43.1,
+        "runtime_score": 6.5,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_supplychain_v2.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 27.6,
+        "yara_score": 12.0,
+        "runtime_score": 7.4,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_thread_injector.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 31.7,
+        "yara_score": 5.6,
+        "runtime_score": 5.3,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zen_timebomb_v2.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 4.4,
+        "yara_score": 43.9,
+        "runtime_score": 19.0,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_aes256_ransomware.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 89.3,
+        "yara_score": 100,
+        "runtime_score": 6.5,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_antivm_trojan.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 12.0,
+        "yara_score": 94.5,
+        "runtime_score": 11.3,
+        "sandbox_score": 0.0,
+        "pcap_score": 7.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_chacha20_exfil.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 22.5,
+        "yara_score": 75.0,
+        "runtime_score": 0.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 7.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_covert_exfil.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 26.8,
+        "yara_score": 76.5,
+        "runtime_score": 11.4,
+        "sandbox_score": 0.0,
+        "pcap_score": 42.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_dh_bot.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 38.0,
+        "yara_score": 75.0,
+        "runtime_score": 4.2,
+        "sandbox_score": 0.0,
+        "pcap_score": 14.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_fernet_backdoor.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 49.5,
+        "yara_score": 75.0,
+        "runtime_score": 6.5,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_fragmented_dropper.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 45.3,
+        "yara_score": 43.1,
+        "runtime_score": 4.7,
+        "sandbox_score": 0.0,
+        "pcap_score": 7.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_hybrid_crypto_beast.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 34.5,
+        "yara_score": 37.5,
+        "runtime_score": 1.4,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_marshal_injector.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 57.9,
+        "yara_score": 43.1,
+        "runtime_score": 11.9,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_poly_cryptic.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 0.0,
+        "yara_score": 0.0,
+        "runtime_score": 3.0,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_process_hollower.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 37.2,
+        "yara_score": 100,
+        "runtime_score": 2.8,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_reflective_loader.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 0.0,
+        "yara_score": 75.0,
+        "runtime_score": 2.2,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 40.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_rot13_hex_stealer.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 9.6,
+        "yara_score": 43.9,
+        "runtime_score": 9.0,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_ultra_malware.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 488.3,
+        "yara_score": 100,
+        "runtime_score": 0.9,
+        "sandbox_score": 0.0,
+        "pcap_score": 56.0,
+        "memory_score": 100,
+        "binary_score": 0.0
+      }
+    },
+    {
+      "name": "zenv2_xor_multikey.py",
+      "label": 1,
+      "scores": {
+        "ast_score": 4.5,
+        "yara_score": 0.0,
+        "runtime_score": 5.3,
+        "sandbox_score": 0.0,
+        "pcap_score": 0.0,
+        "memory_score": 0.0,
+        "binary_score": 0.0
+      }
+    }
+  ]
+}
